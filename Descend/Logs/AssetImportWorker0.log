@@ -165,3 +165,59 @@ Received Import Request.
 Start importing Assets/Visuals/warrior 1.unity using Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cae4391aa7733bb0eae85af431a374') in 0.001936 seconds 
   Import took 0.006653 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 290.140311 seconds.
+  path: Assets/Visuals/warrior 1.unity
+  artifactKey: Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior 1.unity using Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f03120f58c4cc8f327d24006f84251') in 0.016080 seconds 
+  Import took 0.048298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 401.939532 seconds.
+  path: Assets/Visuals/warrior 1.PNG
+  artifactKey: Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior 1.PNG using Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae4a181fe773e21c94fa978716d52cd') in 0.073040 seconds 
+  Import took 0.086268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.528099 seconds.
+  path: Assets/Visuals/warrior.PNG
+  artifactKey: Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior.PNG using Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d430bda53f075e9cba31606a9a06b1') in 0.042287 seconds 
+  Import took 0.060537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.323986 seconds.
+  path: Assets/Visuals/warrior.unity
+  artifactKey: Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior.unity using Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa53ca318f6b4fb4540e29b67abb782b') in 0.002082 seconds 
+  Import took 0.006314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.198011 seconds.
+  path: Assets/Visuals/warrior.PNG
+  artifactKey: Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior.PNG using Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08164916f2235ad8f3451610a279d3eb') in 0.068283 seconds 
+  Import took 0.080845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.710808 seconds.
+  path: Assets/Visuals/warrior.PNG
+  artifactKey: Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior.PNG using Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197a65dac48e642f5050f52473cd866') in 0.040026 seconds 
+  Import took 0.055728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2980.549981 seconds.
+  path: Assets/Visuals/warrior.PNG
+  artifactKey: Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior.PNG using Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621e19c30b22b9091a75406a97d3b07a') in 0.053985 seconds 
+  Import took 0.071812 seconds .
+
