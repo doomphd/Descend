@@ -197,3 +197,11 @@ Received Import Request.
 Start importing Assets/Visuals/rocks.PNG using Guid(c2fcc298cc8ac490f85f2dff5a37a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cadad3857f070896fa2b808e5f142d') in 0.124817 seconds 
   Import took 0.132010 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 8302.376465 seconds.
+  path: Assets/Visuals/trees.PNG
+  artifactKey: Guid(648cc9bbfcdb24231aadc3fe3512a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/trees.PNG using Guid(648cc9bbfcdb24231aadc3fe3512a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c9703aba58c735acba90e4c4027910') in 0.057215 seconds 
+  Import took 0.098368 seconds .
+
