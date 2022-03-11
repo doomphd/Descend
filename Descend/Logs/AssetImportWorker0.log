@@ -221,3 +221,19 @@ Received Import Request.
 Start importing Assets/Visuals/warrior.PNG using Guid(c32d8abc6b41f41c396231ed305323f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621e19c30b22b9091a75406a97d3b07a') in 0.053985 seconds 
   Import took 0.071812 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 982.854579 seconds.
+  path: Assets/Visuals/ignore
+  artifactKey: Guid(4b24fff3987b44b40aedd44454a839d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/ignore using Guid(4b24fff3987b44b40aedd44454a839d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0279822fd69b31a3c9279780f39d2d0') in 0.002897 seconds 
+  Import took 0.023400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118093 seconds.
+  path: Assets/Visuals/ignore/warrior.PNG
+  artifactKey: Guid(b18f9209e1f3b4ab8b375f30064e5b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/ignore/warrior.PNG using Guid(b18f9209e1f3b4ab8b375f30064e5b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ce2d2c4b037b6d8968e1be5cc7c9dd') in 0.268410 seconds 
+  Import took 0.272152 seconds .
+
