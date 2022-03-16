@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59649
+54376
 Successfully changed project path to: /Users/adele/Desktop/Descend/Descend
 /Users/adele/Desktop/Descend/Descend
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/adele/Desktop/Descend/Descend/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-11 15:43:02.596 Unity[35982:734596] (null) preferred device: Apple M1 (high power)
-2022-03-11 15:43:02.596 Unity[35982:734596] Metal devices available: 1
-2022-03-11 15:43:02.596 Unity[35982:734596] 0: Apple M1 (high power)
-2022-03-11 15:43:02.603 Unity[35982:734596] Using device Apple M1 (high power)
+2022-03-15 22:23:59.252 Unity[33228:2783125] (null) preferred device: Apple M1 (high power)
+2022-03-15 22:23:59.252 Unity[33228:2783125] Metal devices available: 1
+2022-03-15 22:23:59.252 Unity[33228:2783125] 0: Apple M1 (high power)
+2022-03-15 22:23:59.252 Unity[33228:2783125] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56982
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001757 seconds.
+Registered in 0.001018 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.905 seconds
+- Completed reload, in  2.021 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1905ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (2021ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1558ms)
-			LoadAssemblies (163ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (772ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (840ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (165ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (521ms)
+				ProcessInitializeOnLoadMethodAttributes (178ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002645 seconds.
+Registered in 0.002708 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 72.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.378 seconds
+- Completed reload, in  3.638 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3381ms)
-		BeginReloadAssembly (385ms)
+	ReloadAssembly (3641ms)
+		BeginReloadAssembly (405ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
+			DisableScriptedObjects (51ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2856ms)
-			LoadAssemblies (287ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (3092ms)
+			LoadAssemblies (311ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (531ms)
+			SetupTypeCache (551ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1490ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1640ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (182ms)
-				ProcessInitializeOnLoadAttributes (1135ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (1268ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (47ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000258 seconds.
+Validating Project structure ... 0.000291 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000438 seconds.
+Upgrading shader files ...0.000418 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,20 +125,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
 Initializing Unity extensions:
-2022-03-11 15:43:09.631 Unity[35982:734596] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000118b2c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-03-11 15:43:09.636 Unity[35982:734596] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000011f47e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-15 22:24:06.694 Unity[33228:2783125] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000157f9c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-15 22:24:06.699 Unity[33228:2783125] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000150e680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 210.8 MB.
-System memory in use after: 210.1 MB.
+System memory in use after: 210.0 MB.
 
 Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 2670.
-Total: 4.435500 ms (FindLiveObjects: 0.156917 ms CreateObjectMapping: 0.068125 ms MarkObjects: 3.578667 ms  DeleteObjects: 0.629958 ms)
+Total: 4.878333 ms (FindLiveObjects: 0.197792 ms CreateObjectMapping: 0.070541 ms MarkObjects: 3.913042 ms  DeleteObjects: 0.695666 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,8 +152,152 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Visuals/rocks.unity
-  artifactKey: Guid(3e004d51d26684e9a8a665eb6705a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visuals/rocks.unity using Guid(3e004d51d26684e9a8a665eb6705a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d792020322de97e37d6935ce7f52a7') in 0.029797 seconds 
-  Import took 0.035057 seconds .
+  path: Assets/Visuals/IMG_1724.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/IMG_1724.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cc8df16750e78b1c1bddd13a0e6326') in 1.065784 seconds 
+  Import took 1.073998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.587087 seconds.
+  path: Assets/Visuals/apolllo.unity
+  artifactKey: Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734837ba990bd45935a723784499a7c6') in 0.002939 seconds 
+  Import took 0.007317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.704225 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d93a8e4856b704025106ced6959f649') in 0.048621 seconds 
+  Import took 0.061972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.081077 seconds.
+  path: Assets/Visuals/warrior.unity
+  artifactKey: Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/warrior.unity using Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf2061f244e4205e1656e696c90a844') in 0.004913 seconds 
+  Import took 0.014498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.406221 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e98dc68a2350aa4a0ca0c904a1abf96') in 0.032427 seconds 
+  Import took 0.045402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.406514 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52bd1486fabecb5de76dd8eaa4fc5d5') in 0.033826 seconds 
+  Import took 0.047432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.196135 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e3d32a7c56369e0162a10514d27ffc') in 0.018368 seconds 
+  Import took 0.023380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.445189 seconds.
+  path: Assets/Visuals/apolllo.unity
+  artifactKey: Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2708645db5521b1e6cc50222b3cc1fd4') in 0.005439 seconds 
+  Import took 0.019139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.658816 seconds.
+  path: Assets/Visuals/apolllo.unity
+  artifactKey: Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614b65adc5bbc0832ee84ce5e4b41435') in 0.008336 seconds 
+  Import took 0.026104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 390.815630 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9e7c3e646c651c1023db955760eb29') in 0.040886 seconds 
+  Import took 0.065554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.989811 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c915ee7c215f21c4e13677a0faa08e33') in 0.033556 seconds 
+  Import took 0.050173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.030027 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23acbcbcf0d47477c31be8b96e5c92') in 0.018374 seconds 
+  Import took 0.023594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.424577 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd007af96389ea49e4d0d602b1b507d76') in 0.040342 seconds 
+  Import took 0.061896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 763.514809 seconds.
+  path: Assets/Visuals/apolllo.unity
+  artifactKey: Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6613fc8cdcffe25a0cef3c152ef76566') in 0.011929 seconds 
+  Import took 0.036411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 858.993787 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd0383607a64c118a3c2542b68186c7') in 0.051422 seconds 
+  Import took 0.066686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.514948 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199143b70eb286c6a2e99434e846c6e7') in 0.018656 seconds 
+  Import took 0.023996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.381281 seconds.
+  path: Assets/Visuals/apollo.PNG
+  artifactKey: Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apollo.PNG using Guid(cbbba6673c06b406eae2c72c2d207091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e766e06df36ee1ee1c4ca97127c2674b') in 0.017829 seconds 
+  Import took 0.022685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.708987 seconds.
+  path: Assets/Visuals/apolllo.unity
+  artifactKey: Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d43d3d7f4816e5600821d03a4b0e4b') in 0.004935 seconds 
+  Import took 0.018329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.566419 seconds.
+  path: Assets/Visuals/apolllo.unity
+  artifactKey: Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55846e5604c66b6adaaae4c38c6b9c36') in 0.001719 seconds 
+  Import took 0.010917 seconds .
 

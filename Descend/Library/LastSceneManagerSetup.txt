@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Visuals/warrior.unity
+- path: Assets/Visuals/apolllo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
