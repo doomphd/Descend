@@ -301,3 +301,59 @@ Received Import Request.
 Start importing Assets/Visuals/apolllo.unity using Guid(e1f3b02e72054410e8f9d85526b5cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55846e5604c66b6adaaae4c38c6b9c36') in 0.001719 seconds 
   Import took 0.010917 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 4403.281703 seconds.
+  path: Assets/Visuals/8thNote.PNG
+  artifactKey: Guid(359be192343b84ae8bca1f89a17c72ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/8thNote.PNG using Guid(359be192343b84ae8bca1f89a17c72ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffdcee32a2c12c6375271d11f9186d1') in 0.056527 seconds 
+  Import took 0.100144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/Visuals/bushes.PNG
+  artifactKey: Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/bushes.PNG using Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625cba253dadcf7b9e7aa0495e0591de') in 0.017243 seconds 
+  Import took 0.021723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.315810 seconds.
+  path: Assets/Visuals/bushes.PNG
+  artifactKey: Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/bushes.PNG using Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9328826a8b1be869d97516fbb6ed9b') in 0.012494 seconds 
+  Import took 0.018466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.201784 seconds.
+  path: Assets/Visuals/bushes.PNG
+  artifactKey: Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/bushes.PNG using Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a167dd903d7b6fde6a6a1d9a5bfae09c') in 0.097083 seconds 
+  Import took 0.108197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.303748 seconds.
+  path: Assets/Visuals/bushes.PNG
+  artifactKey: Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/bushes.PNG using Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23491c233d9f42abd5bbc69d23a2ab3c') in 0.084602 seconds 
+  Import took 0.089711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.139777 seconds.
+  path: Assets/Visuals/bushes.PNG
+  artifactKey: Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/bushes.PNG using Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c94e339b1f6210280425a5f3fcb94e') in 0.059984 seconds 
+  Import took 0.065957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.750909 seconds.
+  path: Assets/Visuals/bushes.PNG
+  artifactKey: Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/bushes.PNG using Guid(a15d411e8d69b4a918f604922a597a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9a390412d52ebf7c9968c6c382093a') in 0.061413 seconds 
+  Import took 0.068036 seconds .
+
