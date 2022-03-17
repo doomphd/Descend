@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a15d411e8d69b4a918f604922a597a32
+guid: 3f380cef44d894e8c8199dfc5d89dd69
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -121,10 +121,10 @@ TextureImporter:
       name: bushes_0
       rect:
         serializedVersion: 2
-        x: 455
-        y: 1194
-        width: 407
-        height: 302
+        x: 450
+        y: 1189
+        width: 416
+        height: 310
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +142,10 @@ TextureImporter:
       name: bushes_1
       rect:
         serializedVersion: 2
-        x: 882
-        y: 1160
-        width: 464
-        height: 321
+        x: 879
+        y: 1156
+        width: 469
+        height: 328
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +163,10 @@ TextureImporter:
       name: bushes_2
       rect:
         serializedVersion: 2
-        x: 1482
-        y: 1044
-        width: 509
-        height: 416
+        x: 1478
+        y: 1041
+        width: 516
+        height: 422
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,24 +184,24 @@ TextureImporter:
       name: bushes_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 406
-        width: 635
-        height: 755
+        x: 37
+        y: 403
+        width: 642
+        height: 762
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -111.5, y: 377.5}
-        - {x: -267.5, y: 281.5}
-        - {x: -317.5, y: 69.5}
-        - {x: -317.5, y: -307.5}
-        - {x: -259.5, y: -377.5}
-        - {x: 279.5, y: -377.5}
-        - {x: 317.5, y: -349.5}
-        - {x: 317.5, y: -27.5}
-        - {x: 239.5, y: 79.5}
-        - {x: 146.5, y: 377.5}
+      - - {x: 239, y: 67}
+        - {x: 215, y: 207}
+        - {x: 72, y: 381}
+        - {x: -47, y: 381}
+        - {x: -89, y: 366}
+        - {x: -266, y: 65}
+        - {x: -321, y: -151}
+        - {x: -321, y: -381}
+        - {x: 321, y: -381}
+        - {x: 321, y: -81}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -215,22 +215,14 @@ TextureImporter:
       name: bushes_4
       rect:
         serializedVersion: 2
-        x: 598
-        y: 819
-        width: 407
-        height: 302
+        x: 594
+        y: 814
+        width: 416
+        height: 310
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -99.5, y: 151}
-        - {x: -199.5, y: 83}
-        - {x: -203.5, y: 71}
-        - {x: -203.5, y: -151}
-        - {x: 188.5, y: -151}
-        - {x: 203.5, y: -149}
-        - {x: 203.5, y: 59}
-        - {x: 125.5, y: 151}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -244,10 +236,10 @@ TextureImporter:
       name: bushes_5
       rect:
         serializedVersion: 2
-        x: 1025
-        y: 785
-        width: 464
-        height: 321
+        x: 1023
+        y: 781
+        width: 469
+        height: 328
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,21 +257,24 @@ TextureImporter:
       name: bushes_6
       rect:
         serializedVersion: 2
-        x: 1559
-        y: 672
-        width: 443
-        height: 353
+        x: 1555
+        y: 667
+        width: 449
+        height: 360
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -142.5, y: 176.5}
-        - {x: -221.5, y: 84.5}
-        - {x: -221.5, y: -130.5}
-        - {x: -125.5, y: -176.5}
-        - {x: 221.5, y: -176.5}
-        - {x: 221.5, y: 87.5}
-        - {x: 179.5, y: 176.5}
+      - - {x: 80.5, y: 180}
+        - {x: -120.5, y: 180}
+        - {x: -224.5, y: 34}
+        - {x: -224.5, y: -119}
+        - {x: -132.5, y: -180}
+        - {x: 118.5, y: -180}
+        - {x: 205.5, y: -157}
+        - {x: 224.5, y: -123}
+        - {x: 224.5, y: 0}
+        - {x: 187.5, y: 116}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -293,10 +288,10 @@ TextureImporter:
       name: bushes_7
       rect:
         serializedVersion: 2
-        x: 746
-        y: 391
-        width: 400
-        height: 323
+        x: 741
+        y: 389
+        width: 409
+        height: 328
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,21 +309,20 @@ TextureImporter:
       name: bushes_8
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 393
-        width: 443
-        height: 353
+        x: 1188
+        y: 389
+        width: 449
+        height: 360
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 117.5, y: 176.5}
-        - {x: -142.5, y: 176.5}
-        - {x: -221.5, y: 84.5}
-        - {x: -221.5, y: -140.5}
-        - {x: -208.5, y: -176.5}
-        - {x: 221.5, y: -176.5}
-        - {x: 221.5, y: 87.5}
+      - - {x: 125.5, y: 180}
+        - {x: -110.5, y: 180}
+        - {x: -224.5, y: 85}
+        - {x: -224.5, y: -180}
+        - {x: 224.5, y: -180}
+        - {x: 224.5, y: 48}
       physicsShape: []
       tessellationDetail: 0
       bones: []
