@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/World Scenes/SampleScene.unity
+=======
+- path: Assets/World Scenes/Level_One.unity
+>>>>>>> Jesus-Branch
   isLoaded: 1
   isActive: 1
   isSubScene: 0
