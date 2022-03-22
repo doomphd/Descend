@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Inner Bush
+    uniqueID: 3282900857
+    locked: 0
+  - name: Inner Tree
+    uniqueID: 341513257
+    locked: 0
+  - name: Trees
+    uniqueID: 2692934743
+    locked: 0
+  - name: Outer Bush
+    uniqueID: 496499353
+    locked: 0
