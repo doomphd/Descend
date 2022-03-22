@@ -1176,8 +1176,8 @@ GameObject:
   - component: {fileID: 1025772137}
   - component: {fileID: 1025772136}
   - component: {fileID: 1025772142}
-  - component: {fileID: 1025772141}
   - component: {fileID: 1025772140}
+  - component: {fileID: 1025772141}
   m_Layer: 0
   m_Name: warrior
   m_TagString: Untagged
@@ -1342,7 +1342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7d757bcbddc460c81f561d5ebf4a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 20
 --- !u!50 &1025772142
 Rigidbody2D:
   serializedVersion: 4
@@ -1358,7 +1357,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
