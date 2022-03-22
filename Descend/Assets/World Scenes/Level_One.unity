@@ -559,7 +559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380876596}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.221378, y: -3.611976, z: 0}
+  m_LocalPosition: {x: 5.26, y: -2.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025772139}
@@ -912,14 +912,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751606450}
-  m_LocalRotation: {x: 0, y: 0, z: 0.69620436, w: 0.71784365}
-  m_LocalPosition: {x: 1.211147, y: 0.11085376, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6908642, w: 0.7229846}
+  m_LocalPosition: {x: 1.0773908, y: 0.2544766, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1382261392}
   m_Father: {fileID: 2041323021}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 88.274}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 88.275}
 --- !u!114 &751606452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1178,6 +1178,7 @@ GameObject:
   - component: {fileID: 1025772142}
   - component: {fileID: 1025772140}
   - component: {fileID: 1025772141}
+  - component: {fileID: 1025772143}
   m_Layer: 0
   m_Name: warrior
   m_TagString: Untagged
@@ -1232,8 +1233,8 @@ MonoBehaviour:
   - {fileID: 1840162144}
   - {fileID: 751606451}
   m_Bounds:
-    m_Center: {x: 1.9163158, y: 0.49873734, z: 0}
-    m_Extent: {x: 4.0043917, y: 5.044508, z: 0}
+    m_Center: {x: 2.2372172, y: 0.49873734, z: 0}
+    m_Extent: {x: 4.325293, y: 5.044508, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!212 &1025772138
@@ -1363,6 +1364,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1025772143
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025772135}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f802a0d137f274941b741ad523b4ecee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1234879343
 GameObject:
   m_ObjectHideFlags: 0
@@ -58789,14 +58809,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618695794}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9896741, w: 0.14333574}
+  m_LocalRotation: {x: 0, y: 0, z: 0.99811083, w: 0.061439183}
   m_LocalPosition: {x: 2.5185914, y: 1.2639558, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2041323021}
   m_Father: {fileID: 707864075}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 163.518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 190.735}
 --- !u!1 &1684924988
 GameObject:
   m_ObjectHideFlags: 0
@@ -58920,6 +58940,7 @@ GameObject:
   - component: {fileID: 1791882930}
   - component: {fileID: 1791882929}
   - component: {fileID: 1791882928}
+  - component: {fileID: 1791882931}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -58992,6 +59013,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791882931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791882927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97825176048a410c89a175af9f92d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1797952628
 GameObject:
   m_ObjectHideFlags: 0
@@ -59495,7 +59528,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041323020}
-  m_LocalRotation: {x: 0, y: 0, z: 0.12724797, w: 0.99187094}
+  m_LocalRotation: {x: 0, y: 0, z: 0.190135, w: 0.981758}
   m_LocalPosition: {x: 1.0401531, y: 0.02426216, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
