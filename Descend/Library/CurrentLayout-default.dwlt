@@ -14,10 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 519
     y: 407
     width: 1377
     height: 918
+=======
+<<<<<<< HEAD
+    x: 341
+    y: 275
+    width: 1920
+    height: 997
+=======
+    x: 866
+    y: 287
+    width: 1377
+    height: 911
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 2}
@@ -44,9 +58,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1920
+    height: 997
+=======
     width: 1377
+<<<<<<< HEAD
     height: 918
   m_MinSize: {x: 875, y: 300}
+=======
+    height: 911
+>>>>>>> Jesus-Branch
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> main
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -69,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1377
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -93,8 +117,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 898
+=======
+<<<<<<< HEAD
+    y: 977
+    width: 1920
+=======
+    y: 891
+>>>>>>> main
     width: 1377
+>>>>>>> Jesus-Branch
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -117,12 +150,25 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+    width: 1920
+    height: 947
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 19
+=======
     width: 1377
     height: 868
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 21
+=======
+  controlID: 105
+>>>>>>> Jesus-Branch
+>>>>>>> main
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,12 +188,25 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1428
+    height: 947
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 68
+=======
     width: 1024
     height: 868
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 22
+=======
+  controlID: 106
+>>>>>>> Jesus-Branch
+>>>>>>> main
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,12 +226,25 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1428
+    height: 619
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 69
+=======
     width: 1024
     height: 490
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 23
+=======
+  controlID: 107
+>>>>>>> Jesus-Branch
+>>>>>>> main
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,11 +262,23 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 347
+    height: 619
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+=======
     width: 249
     height: 490
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 15}
+=======
+  m_ActualView: {fileID: 14}
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_Panes:
   - {fileID: 15}
   - {fileID: 13}
@@ -215,18 +299,38 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 249
+    x: 347
     y: 0
+<<<<<<< HEAD
+    width: 1081
+    height: 619
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
+=======
     width: 775
     height: 490
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 14}
   - {fileID: 12}
+=======
+  m_ActualView: {fileID: 15}
+>>>>>>> Jesus-Branch
+  m_Panes:
+  - {fileID: 15}
+<<<<<<< HEAD
+  - {fileID: 12}
+=======
+  - {fileID: 16}
+  - {fileID: 13}
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &10
@@ -245,12 +349,27 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 490
     width: 1024
     height: 378
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
+=======
+<<<<<<< HEAD
+    y: 619
+    width: 1428
+    height: 328
+=======
+    y: 484
+    width: 1024
+    height: 377
+>>>>>>> Jesus-Branch
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
+>>>>>>> main
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
@@ -272,13 +391,25 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1024
+    x: 1428
     y: 0
+<<<<<<< HEAD
+    width: 492
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+=======
     width: 353
     height: 868
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 21}
+=======
+  m_ActualView: {fileID: 20}
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_Panes:
   - {fileID: 21}
   m_Selected: 0
@@ -395,6 +526,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 347
+    y: 73
+    width: 1079
+    height: 598
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowAlpha: 0
+  m_MipLevel: 0
+  m_Zoom: 0.32871094
+  m_ScrollPosition: {x: 0, y: 0}
+  m_SelectedObject: {fileID: 0}
+  m_SelectedSpriteRectGUID: 00000000000000000000000000000000
+  m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpriteOutlineModule
+--- !u!114 &13
+=======
     x: 463
     y: 73
     width: 1439
@@ -405,9 +551,16 @@ MonoBehaviour:
   m_Zoom: 0.3084961
   m_ScrollPosition: {x: -32.625893, y: -5.492626}
   m_SelectedObject: {fileID: 0}
+<<<<<<< HEAD
   m_SelectedSpriteRectGUID: 8ad6dc9eda44a9342ae32fc7b8fb9f20
   m_LastUsedModuleTypeName: UnityEditor.U2D.Animation.SkinningModule
 --- !u!114 &15
+=======
+  m_SelectedSpriteRectGUID: b75d56418c5f61e60800000000000000
+  m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpriteFrameModule
+--- !u!114 &14
+>>>>>>> Jesus-Branch
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -427,17 +580,43 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 519
     y: 437
     width: 248
     height: 469
+=======
+<<<<<<< HEAD
+    x: 341
+    y: 305
+    width: 346
+    height: 598
+=======
+    x: 0
+    y: 19
+    width: 248
+    height: 463
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 5c5e0000
       m_LastClickedID: 24156
       m_ExpandedIDs: b021ffff02ccffff7eccffff34f2ffffe85d00003a5e0000645e00006c5e0000965e0000
+=======
+<<<<<<< HEAD
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0af9ffff6af9ffff80f9ffff12faffff26faffff14fbffff
+=======
+      m_SelectedIDs: 74430000
+      m_LastClickedID: 17268
+      m_ExpandedIDs: 66fbffff3a430000
+>>>>>>> Jesus-Branch
+>>>>>>> main
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -481,10 +660,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 768
     y: 437
     width: 773
     height: 469
+=======
+<<<<<<< HEAD
+    x: 688
+    y: 305
+    width: 1079
+    height: 598
+=======
+    x: 1115
+    y: 317
+    width: 773
+    height: 463
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -497,9 +690,21 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 10.09847, y: 0.66334605, z: -5.4844418}
     speed: 2
     m_Value: {x: 11.028036, y: -0.16136044, z: -5.4032745}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -0.46060312, y: 0.80768335, z: -1.9050595}
+    speed: 2
+    m_Value: {x: -0.46060312, y: 0.80768335, z: -1.9050595}
+=======
+    m_Target: {x: 12.765216, y: -6.902374, z: -32.1969}
+    speed: 2
+    m_Value: {x: 12.765216, y: -6.902374, z: -32.1969}
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 3
@@ -550,9 +755,21 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 21.53178
     speed: 2
     m_Value: 22.546368
+=======
+<<<<<<< HEAD
+    m_Target: 6.262602
+    speed: 2
+    m_Value: 6.262602
+=======
+    m_Target: 33.596992
+    speed: 2
+    m_Value: 33.596992
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -600,7 +817,15 @@ MonoBehaviour:
     x: 463
     y: 73
     width: 1439
+<<<<<<< HEAD
     height: 739
+=======
+<<<<<<< HEAD
+    height: 859
+=======
+    height: 736
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -608,7 +833,15 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1439, y: 718}
+=======
+<<<<<<< HEAD
+  m_TargetSize: {x: 1439, y: 838}
+=======
+  m_TargetSize: {x: 1439, y: 715}
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -625,8 +858,18 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -719.5
     m_HBaseRangeMax: 719.5
+<<<<<<< HEAD
     m_VBaseRangeMin: -359
     m_VBaseRangeMax: 359
+=======
+<<<<<<< HEAD
+    m_VBaseRangeMin: -419
+    m_VBaseRangeMax: 419
+=======
+    m_VBaseRangeMin: -357.5
+    m_VBaseRangeMax: 357.5
+>>>>>>> Jesus-Branch
+>>>>>>> main
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -645,9 +888,21 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1439
+<<<<<<< HEAD
       height: 718
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 719.5, y: 359}
+=======
+<<<<<<< HEAD
+      height: 838
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 719.5, y: 419}
+=======
+      height: 715
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 719.5, y: 357.5}
+>>>>>>> Jesus-Branch
+>>>>>>> main
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -655,12 +910,29 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -719.5
+<<<<<<< HEAD
       y: -359
+=======
+<<<<<<< HEAD
+      y: -419
+      width: 1439
+      height: 838
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1439, y: 859}
+=======
+      y: -357.5
+>>>>>>> main
       width: 1439
       height: 718
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1439, y: 739}
+=======
+  m_LastWindowPixelSize: {x: 1439, y: 736}
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -686,10 +958,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 341
+    y: 924
+    width: 1427
+    height: 307
+=======
     x: 0
+<<<<<<< HEAD
     y: 833
     width: 1903
     height: 566
+=======
+    y: 503
+    width: 1023
+    height: 356
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -704,22 +989,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Visuals
+    - Assets/World Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Visuals
+  - Assets/World Scenes
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\jesus\OneDrive\Desktop\Descend\Descend
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 265f0000
     m_LastClickedID: 24358
     m_ExpandedIDs: 000000001a5f000000ca9a3b
+=======
+<<<<<<< HEAD
+    m_SelectedIDs: 44430000
+    m_LastClickedID: 17220
+    m_ExpandedIDs: 0000000026430000284300002a43000000ca9a3b
+=======
+    m_SelectedIDs: fa530000
+    m_LastClickedID: 21498
+    m_ExpandedIDs: 00000000f4530000fa53000000ca9a3b
+>>>>>>> Jesus-Branch
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -747,7 +1044,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000001a5f0000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000026430000284300002a430000
+=======
+    m_ExpandedIDs: 00000000f4530000
+>>>>>>> Jesus-Branch
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -772,10 +1077,22 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: b021ffff
     m_LastClickedInstanceID: -56912
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000704c0000664300003a430000d043000052430000ce5e0000d05e0000
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+<<<<<<< HEAD
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000000000000704c000066430000d043000046170000981700006c170000b0170000b8170000
+=======
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000000000000704c0000664300003a430000d043000052430000
+>>>>>>> Jesus-Branch
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -791,7 +1108,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
+      m_ClientGUIView: {fileID: 10}
+=======
       m_ClientGUIView: {fileID: 4}
+>>>>>>> Jesus-Branch
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -876,10 +1197,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1543
     y: 437
     width: 352
     height: 847
+=======
+<<<<<<< HEAD
+    x: 1769
+    y: 305
+    width: 491
+    height: 926
+=======
+    x: 1025
+    y: 19
+    width: 352
+    height: 840
+>>>>>>> Jesus-Branch
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
