@@ -383,7 +383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: 8cb6d2dcfdcb945a9a48deae5ec3365a, type: 3}
       propertyPath: m_Name
-      value: bg3
+      value: mountain front
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 8cb6d2dcfdcb945a9a48deae5ec3365a, type: 3}
       propertyPath: m_RootOrder
@@ -690,7 +690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: f67104793e0244aca81316668f9bcced, type: 3}
       propertyPath: m_Name
-      value: bg4
+      value: ' clouds'
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: f67104793e0244aca81316668f9bcced, type: 3}
       propertyPath: m_RootOrder
@@ -759,7 +759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: 01de53cb2f9df4a2d9f75eaf5c2dbbfd, type: 3}
       propertyPath: m_Name
-      value: bg1
+      value: mountain back
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: 01de53cb2f9df4a2d9f75eaf5c2dbbfd, type: 3}
       propertyPath: m_RootOrder
@@ -910,7 +910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3888481672020999207, guid: cf32a5a17e49e4d6a9ed11516de2e147, type: 3}
       propertyPath: m_Name
-      value: bg2
+      value: mountain middle
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: cf32a5a17e49e4d6a9ed11516de2e147, type: 3}
       propertyPath: m_RootOrder
