@@ -183,3 +183,99 @@ Received Import Request.
   path: Assets/Visuals/characters/players
   artifactKey: Guid(f945cb72b8c1a43d882c23f641b0a531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Visuals/characters/players using Guid(f945cb72b8c1a43d882c23f641b0a531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca19c34bb28defab6866b38aa2bf58e') in 0.001143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.793984 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b19847020e55eb86e510074faea5d68') in 0.256297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.761709 seconds.
+  path: Assets/Visuals/characters/players/archer.unity
+  artifactKey: Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.unity using Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b378f3a953cd8ff0ff9227dec93ebd7f') in 0.001320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.911037 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aada22edb05b7b9222c464a7893dee31') in 0.194719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.288748 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82075c98035d7a8372bf80eed3c1967b') in 0.207922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.519482 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b50c547451687ea369854ac08a5835') in 0.169364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 746.848347 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cc6c71589b9534a7a6b50d2f275f3d') in 0.193942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.694089 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edae970da4c767146bea69ade83ac86f') in 0.202038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.870837 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12290d9a242feed1fc6699d891227896') in 0.185139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.659702 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc178f5619cb896b15a9656215c277d8') in 0.204782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.908120 seconds.
+  path: Assets/Visuals/characters/players/warrior.unity
+  artifactKey: Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/warrior.unity using Guid(c8830ad955d7e413286daac8f694509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb56e9a914f9c4616aa9ff3c04e29550') in 0.002203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.023933 seconds.
+  path: Assets/Visuals/characters/players/archer.unity
+  artifactKey: Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.unity using Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a54c277018325399acfaa2ae5c7209') in 0.000888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 333.812992 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45686d6320008f96b719b00c4a7c81f5') in 0.209840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.941056 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52f6d4c7807342bde1522d19370178c') in 0.186197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.964899 seconds.
+  path: Assets/Visuals/characters/players/archer.png
+  artifactKey: Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.png using Guid(731a1f258cb034465ba7e361fefe4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2d02f338997951601e9294511abca8') in 0.176714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.191474 seconds.
+  path: Assets/Visuals/characters/players/archer.unity
+  artifactKey: Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.unity using Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bc4b856a0a5f108e44aa0ff3df986f') in 0.007822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.071628 seconds.
+  path: Assets/Visuals/characters/players/archer.unity
+  artifactKey: Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visuals/characters/players/archer.unity using Guid(ec375eaf6650f4027957d732b937ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051387ad34f8013736c6fd7b63f70864') in 0.001540 seconds 
