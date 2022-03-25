@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Visuals/characters/players/archer.unity
+- path: Assets/World Scenes/Level_One.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
