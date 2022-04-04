@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     private float moveHorizontal;
     private float moveVertical;
 
+    public float Hitpoints;
+    public float MaxHitpoints = 5;
+    public HealthbarBehaviour Healthbar;
+
     Animator animator;
 	string currentAnimState;
 	const string WARRIOR_IDLE= "WarriorIdle";
@@ -25,6 +29,9 @@ public class PlayerController : MonoBehaviour
         moveSpeed = 1.5f;
         jumpForce = 35f;
         isJumping = false;
+
+        Hitpoints = MaxHitpoints;
+        Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         
     }
 
@@ -81,4 +88,16 @@ public class PlayerController : MonoBehaviour
 		// Update current state
 		currentAnimState = newState;
 	}
+
+    public void TakeHit(float damage)
+    {
+        Hitpoints -= damage;
+        Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+
+
+        if (Hitpoints <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
