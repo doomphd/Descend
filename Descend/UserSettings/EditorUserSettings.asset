@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 5003015056075f025d5b5b2742755b441716402f297e7468297f1967b5b6366a
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -22,16 +23,23 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-0:
       value: 224247031146466d041d19231c30100219141339623d28393930
+=======
+      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
       flags: 0
-    RecentlyUsedScenePath-1:
-      value: 224247031146466d041d19231c30101106181426202768252320092a
+    RecentlyUsedSceneGuid-1:
+      value: 00090c5555540d02585b087515770e43444f4e2e2d2925682b7f4467b7b06d3d
+>>>>>>> Jesus-Branch
       flags: 0
-    RecentlyUsedScenePath-2:
-      value: 224247031146466d041d19231c30100717050a23233a68252320092a
+    RecentlyUsedSceneGuid-2:
+      value: 5003015056075f025d5b5b2742755b441716402f297e7468297f1967b5b6366a
       flags: 0
-    RecentlyUsedScenePath-3:
-      value: 224247031146466c021c002650105c1518120b651f292b20212c2e30e7ee3176f7e93ffdfe
+    RecentlyUsedSceneGuid-3:
+      value: 5207570252055f095c5c5e71147b0b44124e4a722f712434797a4a30b1e5623e
       flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 01090c0500005a0f5e565d7315775e44134f1d78787c7e657b2d4462e0e2356e
+      flags: 0
+<<<<<<< HEAD
     RecentlyUsedScenePath-4:
       value: 224247031146466d041d19231c3010131e160a2b2f3c23223e661a21f7ee202badef37fbf7237129370bfb25
       flags: 0
@@ -49,6 +57,19 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-9:
       value: 224247031146466d041d19231c3010131e160a2b2f3c23223e660d3fe3f9312af1a821e8f52836332b4cfa320d2a18
+=======
+    RecentlyUsedSceneGuid-5:
+      value: 075055045007515a540c0f7313765944134f41727b7c7e6074781c32bbb1676d
+      flags: 0
+    RecentlyUsedScenePath-0:
+      value: 224247031146466c021c002650105c1518120b65002d303521164c7df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 224247031146466c021c002650105c1518120b651f292b20212c2e30e7ee3176f7e93ffdfe
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 224247031146466c021c002650105c1518120b65002d30352116323de7ae2136ebf32f
+>>>>>>> Jesus-Branch
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
@@ -58,7 +79,11 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
+<<<<<<< HEAD
   m_DesiredImportWorkerCount: 4
+=======
+  m_DesiredImportWorkerCount: 2
+>>>>>>> Jesus-Branch
   m_StandbyImportWorkerCount: 2
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1

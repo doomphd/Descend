@@ -2,7 +2,11 @@
   "dependencies": {
     "com.unity.2d.animation": {
       "version": "7.0.4",
+<<<<<<< HEAD
       "depth": 0,
+=======
+      "depth": 1,
+>>>>>>> Jesus-Branch
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "6.0.3",
