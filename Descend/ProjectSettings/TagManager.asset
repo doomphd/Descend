@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-  - Platform
-  - Enemy
-=======
-  - player
-  - stage
->>>>>>> Jesus-Branch
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -47,28 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Inner Bush
-    uniqueID: 3282900857
-    locked: 0
-  - name: Inner Tree
-    uniqueID: 341513257
-    locked: 0
-  - name: Outer Bush
-    uniqueID: 496499353
-    locked: 0
-  - name: Inner Fence
-    uniqueID: 2706132373
-    locked: 0
-  - name: Fences
-    uniqueID: 3822889313
-    locked: 0
-  - name: Emblems
-    uniqueID: 1904756563
-    locked: 0
-  - name: Character
-    uniqueID: 3683951147
-    locked: 0
-  - name: Trees
-    uniqueID: 2692934743
     locked: 0

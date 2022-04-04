@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Combat Scene/Level 1/Apollo.unity
-=======
-- path: Assets/World Scenes/TutorialWorld.unity
->>>>>>> Jesus-Branch
+- path: Assets/World Scenes/Level_1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
