@@ -548,7 +548,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200667198}
-  m_LocalRotation: {x: 0, y: 0, z: 0.99219173, w: -0.12472236}
+  m_LocalRotation: {x: 0, y: 0, z: 0.97639436, w: -0.2159955}
   m_LocalPosition: {x: 2.5185914, y: 1.263956, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -756,8 +756,8 @@ MonoBehaviour:
   - {fileID: 1524771633}
   - {fileID: 2031467692}
   m_Bounds:
-    m_Center: {x: 2.413104, y: 0.49629354, z: 0}
-    m_Extent: {x: 4.4409637, y: 5.0420637, z: 0}
+    m_Center: {x: 2.6699748, y: 0.49629354, z: 0}
+    m_Extent: {x: 4.6978345, y: 5.0420637, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -828,6 +828,7 @@ MonoBehaviour:
   Hitpoints: 5
   MaxHitpoints: 5
   Healthbar: {fileID: 357463304}
+  spriteRenderer: {fileID: 272951749}
 --- !u!61 &272951751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1715,7 +1716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853912172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.048529, y: -1.344851, z: 0}
+  m_LocalPosition: {x: 12.494496, y: -2.3525648, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2136,7 +2137,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257856623}
-  m_LocalRotation: {x: 0, y: 0, z: 0.24395506, w: 0.9697866}
+  m_LocalRotation: {x: 0, y: 0, z: 0.2905258, w: 0.9568672}
   m_LocalPosition: {x: 1.0401531, y: 0.02426216, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3060,7 +3061,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031467691}
-  m_LocalRotation: {x: 0, y: 0, z: 0.5430239, w: 0.8397172}
+  m_LocalRotation: {x: 0, y: 0, z: 0.36703244, w: 0.93020815}
   m_LocalPosition: {x: 0.86920214, y: -0.06121892, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

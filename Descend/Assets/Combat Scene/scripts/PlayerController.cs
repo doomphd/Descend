@@ -16,10 +16,20 @@ public class PlayerController : MonoBehaviour
     public float MaxHitpoints = 5;
     public HealthbarBehaviour Healthbar;
 
+[SerializeField] SpriteRenderer spriteRenderer;
+
+
     Animator animator;
 	string currentAnimState;
 	const string WARRIOR_IDLE= "WarriorIdle";
 	const string WARRIOR_WALKING= "WarriorWalking";
+    const string WARRIOR_ATTACK= "WarriorAttack";
+
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public int attackDamage = 1;
+    public LayerMask enemyLayers;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,12 +50,25 @@ public class PlayerController : MonoBehaviour
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
-        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Attack();
+        }
     }
 
     void FixedUpdate() 
     {
+            if(moveHorizontal > 0.1f){
+                spriteRenderer.flipX = false ;
+
+            }
+            if(moveHorizontal < -0.1f){
+            spriteRenderer.flipX = true ;
+
+            }
         if(moveHorizontal > 0.1f || moveHorizontal < -0.1f){
+
+
             ChangeAnimationstate(WARRIOR_WALKING);
             rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
 
@@ -57,6 +80,11 @@ public class PlayerController : MonoBehaviour
         }
         if(moveHorizontal == 0f && moveVertical == 0f){
 			ChangeAnimationstate(WARRIOR_IDLE);
+
+        }
+
+        if(Input.GetKeyDown(KeyCode.X)){
+            ChangeAnimationstate(WARRIOR_ATTACK);
 
         }
     }
@@ -99,5 +127,27 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    void Attack()
+    {
+        animator.SetTrigger("Attack");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<EnemyBehaviour>().TakeHit(attackDamage);
+        }
+    }
+
+    void OnDrawGizmosSelected() {
+
+        if(attackPoint == null){
+            return;
+        }
+        
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        
     }
 }
