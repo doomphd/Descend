@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Descend/Assets/Combat Scene/scripts.meta
 guid: 1da301e33f40e5a4296c4603db2ecc66
+=======
+guid: 8e7e8f5a82a3a134e91c54efd2274ea9
+>>>>>>> Jesus-Branch:Descend/Assets/TextMesh Pro/Documentation.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

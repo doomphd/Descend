@@ -63,13 +63,20 @@ The following packages were updated:
   com.unity.ide.vscode from version 1.2.4 to 1.2.5
   com.unity.timeline from version 1.4.8 to 1.6.4
 
+<<<<<<< HEAD
 === Fri Mar 25 01:37:22 2022
+=======
+=== Fri Mar 25 17:12:48 2022
+>>>>>>> Jesus-Branch
 
 Packages were changed.
 Update Mode: updateDependencies
 
 The following packages were updated:
+<<<<<<< HEAD
   com.unity.2d.animation from version 7.0.3 to 7.0.4
+=======
+>>>>>>> Jesus-Branch
   com.unity.2d.psdimporter from version 6.0.2 to 6.0.3
   com.unity.2d.spriteshape from version 7.0.3 to 7.0.4
   com.unity.collab-proxy from version 1.15.12 to 1.15.13
