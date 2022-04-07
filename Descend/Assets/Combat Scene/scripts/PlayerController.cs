@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
 	string currentAnimState;
 	const string WARRIOR_IDLE= "WarriorIdle";
 	const string WARRIOR_WALKING= "WarriorWalking";
-    const string WARRIOR_ATTACK= "WarriorAttack";
 
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -83,10 +82,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if(Input.GetKeyDown(KeyCode.X)){
-            ChangeAnimationstate(WARRIOR_ATTACK);
 
-        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -138,6 +134,8 @@ public class PlayerController : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyBehaviour>().TakeHit(attackDamage);
+            
+
         }
     }
 
