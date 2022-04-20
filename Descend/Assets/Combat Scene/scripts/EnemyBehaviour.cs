@@ -7,10 +7,17 @@ public class EnemyBehaviour : MonoBehaviour
 
     public float Hitpoints;
     public float MaxHitpoints = 5;
+
     public HealthbarBehaviour Healthbar;
     // Start is called before the first frame update
+
+
+ 
     void Start()
     {
+        if(gameObject.tag == "Apollo"){
+            MaxHitpoints = 40;
+        }
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
     }
