@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 4128333439059951152}
   - component: {fileID: 2459266670058093075}
   m_Layer: 0
-  m_Name: cerebus
+  m_Name: cerberus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
