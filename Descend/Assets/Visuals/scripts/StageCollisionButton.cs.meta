@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: b3a0f245b8d00f544be42deb95791542
+guid: c0b59813fd766464190deeabbae07f95
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - button: {instanceID: 0}
+  - canvas: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

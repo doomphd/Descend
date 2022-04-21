@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/World Scenes/Level_1.unity
+=======
+- path: Assets/Visuals/characters/npcs/npc_oldman.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0

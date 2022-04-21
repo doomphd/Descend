@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Descend/Assets/Combat Scene/animations.meta
+guid: 983fcc3b540aa3541960005d29cdea7c
+=======
 guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>> Jesus-Branch:Descend/Assets/TextMesh Pro.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Descend/Assets/Combat Scene/Level 1/animations.meta
+guid: f0528936594913f46b06f605319e9cdb
+=======
 guid: 3a64717c13b3c364ebc9f6b90ee570f3
+>>>>>>> Jesus-Branch:Descend/Assets/Prefabs.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Descend/Assets/Combat Scene/Level 1/animations/character.anim.meta
+guid: 1661988a5e69bfb47affe810d84f47c0
+NativeFormatImporter:
+=======
 guid: 381dcb09d5029d14897e55f98031fca5
 TextScriptImporter:
+>>>>>>> Jesus-Branch:Descend/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
   externalObjects: {}
+  mainObjectFileID: 7400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
