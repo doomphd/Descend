@@ -54,6 +54,9 @@ TagManager:
   - name: Tree
     uniqueID: 4236147557
     locked: 0
+  - name: Player
+    uniqueID: 118866253
+    locked: 0
   - name: smoke
     uniqueID: 224222385
     locked: 0
@@ -65,7 +68,4 @@ TagManager:
     locked: 0
   - name: Flower
     uniqueID: 1705157401
-    locked: 0
-  - name: Player
-    uniqueID: 118866253
     locked: 0
