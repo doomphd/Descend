@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: dfb7d01e94f2345b6809c4e204768332
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: volcano+rocks_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1132
+        width: 754
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8645125085b4af0bcac2bc7eb5880a
+      internalID: -2057927257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 780
+        width: 695
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 199}
+        - {x: -347.5, y: -116}
+        - {x: -347.5, y: -162}
+        - {x: -227.5, y: -199}
+        - {x: 221.5, y: -199}
+        - {x: 334.5, y: -182}
+        - {x: 347.5, y: -165}
+        - {x: 347.5, y: -139}
+        - {x: 84.5, y: 199}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26301ad1963f64b7ba943223bb0dcdbe
+      internalID: 1225203479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_2
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1164
+        width: 777
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7bff3c9a67e483abc698c0e19de586
+      internalID: 1916476449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 749
+        width: 474
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9bd6b15a8064e7ba70ada82675b723
+      internalID: 1519706117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 395
+        width: 475
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef75c816b284771a3b9ec8e439d008
+      internalID: 1116659439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_5
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 186
+        width: 477
+        height: 571
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 285.5}
+        - {x: -238.5, y: -194.5}
+        - {x: -238.5, y: -235.5}
+        - {x: -122.5, y: -285.5}
+        - {x: 145.5, y: -285.5}
+        - {x: 238.5, y: -231.5}
+        - {x: 238.5, y: -75.5}
+        - {x: 82.5, y: 271.5}
+        - {x: 72.5, y: 285.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00c81b09fe74ee594e3b7a6b833c2c
+      internalID: -686136560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_6
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 396
+        width: 733
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -299.5, y: -206.5}
+        - {x: -237.5, y: -135.5}
+        - {x: -107.5, y: -147.5}
+        - {x: 44.5, y: -162.5}
+        - {x: 107.5, y: -219.5}
+        - {x: 366.5, y: -219.5}
+        - {x: 366.5, y: 70.5}
+        - {x: 182.5, y: 219.5}
+        - {x: -187.5, y: 219.5}
+        - {x: -360.5, y: 77.5}
+        - {x: -366.5, y: -177.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfccf2e3f99043f4b97487a8ffef0b8
+      internalID: -130218546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 459
+        width: 375
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd28af2ee7f4dddaf313e14e8418b9
+      internalID: -525478608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 27
+        width: 822
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 375, y: -56.5}
+        - {x: 68, y: 179.5}
+        - {x: -77, y: 173.5}
+        - {x: -411, y: -100.5}
+        - {x: -411, y: -157.5}
+        - {x: -282, y: -179.5}
+        - {x: 161, y: -179.5}
+        - {x: 278, y: -163.5}
+        - {x: 411, y: -119.5}
+        - {x: 411, y: -92.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b7ab474531c4c06b9ce537525b87e2
+      internalID: -525566866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volcano+rocks_9
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 61
+        width: 822
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 107, y: 178}
+        - {x: -106, y: 175}
+        - {x: -411, y: -96}
+        - {x: -411, y: -159}
+        - {x: -339, y: -178}
+        - {x: 201, y: -178}
+        - {x: 411, y: -127}
+        - {x: 411, y: -84}
+        - {x: 376, y: -55}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d21e72bcf5144d6a052f17c8c65af0
+      internalID: 680010681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      volcano+rocks_6: -130218546
+      volcano+rocks_9: 680010681
+      volcano+rocks_0: -2057927257
+      volcano+rocks_8: -525566866
+      volcano+rocks_7: -525478608
+      volcano+rocks_5: -686136560
+      volcano+rocks_2: 1916476449
+      volcano+rocks_3: 1519706117
+      volcano+rocks_1: 1225203479
+      volcano+rocks_4: 1116659439
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

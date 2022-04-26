@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: c18e28e55f0a84940a0b60f52f2b5f86
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dead_plants_0
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 244
+        width: 544
+        height: 907
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 260, y: 116.5}
+        - {x: 233, y: 78.5}
+        - {x: 225, y: 27.5}
+        - {x: 231, y: 3.5}
+        - {x: 223, y: 23.5}
+        - {x: 171, y: 48.5}
+        - {x: 131, y: 21.5}
+        - {x: 85.31244, y: -79.16028}
+        - {x: 26, y: -79.5}
+        - {x: 24, y: -102.5}
+        - {x: 34, y: -111.5}
+        - {x: 48, y: -151.5}
+        - {x: 21, y: -99.5}
+        - {x: 22, y: -24.5}
+        - {x: 121, y: 54.5}
+        - {x: 172, y: 102.5}
+        - {x: 149, y: 105.5}
+        - {x: 136, y: 98.5}
+        - {x: 153, y: 115.5}
+        - {x: 167, y: 188.5}
+        - {x: 112.05652, y: 284.30505}
+        - {x: 172, y: 416.5}
+        - {x: 162, y: 445.5}
+        - {x: 157, y: 453.5}
+        - {x: 120, y: 453.5}
+        - {x: 39, y: 302.5}
+        - {x: 22.245117, y: 203.77045}
+        - {x: -46, y: 243.5}
+        - {x: -50, y: 216.5}
+        - {x: -23.821167, y: 150.48004}
+        - {x: -94.868774, y: 190.24585}
+        - {x: -134.0791, y: 262.287}
+        - {x: -170, y: 287.5}
+        - {x: -247, y: 280.5}
+        - {x: -272, y: 253.5}
+        - {x: -272, y: 195.5}
+        - {x: -116, y: 106.5}
+        - {x: -105, y: 103.5}
+        - {x: -114, y: 93.5}
+        - {x: -122, y: 79.5}
+        - {x: -102, y: 59.5}
+        - {x: -57, y: 46.5}
+        - {x: -21, y: -17.5}
+        - {x: -18, y: -27.5}
+        - {x: -28, y: -43.5}
+        - {x: -29, y: -64.5}
+        - {x: -49, y: -88.5}
+        - {x: -21, y: -24.5}
+        - {x: -22, y: -16.5}
+        - {x: -36, y: -7.5}
+        - {x: -49, y: -10.5}
+        - {x: -53, y: -14.5}
+        - {x: -155, y: -39.5}
+        - {x: -174, y: -64.5}
+        - {x: -167, y: -68.5}
+        - {x: -155, y: -76.5}
+        - {x: -151, y: -75.5}
+        - {x: -146, y: -72.5}
+        - {x: -143, y: -72.5}
+        - {x: -121, y: -65.5}
+        - {x: -134, y: -70.5}
+        - {x: -135, y: -71.5}
+        - {x: -143, y: -72.5}
+        - {x: -154, y: -77.5}
+        - {x: -179, y: -94.5}
+        - {x: -98.30994, y: -104.88287}
+        - {x: -79.29492, y: -140.3877}
+        - {x: -6.7668457, y: -187.65002}
+        - {x: -17.354614, y: -319.0725}
+        - {x: -114, y: -438.5}
+        - {x: -41, y: -453.5}
+        - {x: 130, y: -453.5}
+        - {x: 92.23889, y: -387.85773}
+        - {x: 85.49744, y: -221.36456}
+        - {x: 166.57697, y: -90.589905}
+        - {x: 272, y: -51.5}
+        - {x: 272, y: 124.5}
+      - - {x: 11, y: 31.5}
+        - {x: 11, y: 33.5}
+        - {x: 9, y: 37.5}
+        - {x: 10, y: 38.5}
+        - {x: 9, y: 41.5}
+        - {x: 10, y: 43.5}
+        - {x: 9, y: 44.5}
+        - {x: 9, y: 49.5}
+        - {x: 8, y: 51.5}
+        - {x: 9, y: 52.5}
+        - {x: 8, y: 54.5}
+        - {x: 8, y: 59.5}
+        - {x: 6, y: 62.5}
+        - {x: 6, y: 64.5}
+        - {x: 3, y: 70.5}
+        - {x: 4, y: 71.5}
+        - {x: 3, y: 73.5}
+        - {x: 3, y: 80.5}
+        - {x: 5, y: 83.5}
+        - {x: 5, y: 85.5}
+        - {x: 7, y: 87.5}
+        - {x: 7, y: 90.5}
+        - {x: 9, y: 92.5}
+        - {x: 9, y: 94.5}
+        - {x: 11, y: 95.5}
+        - {x: 12, y: 99.5}
+        - {x: 15, y: 103.5}
+        - {x: 15, y: 105.5}
+        - {x: 20, y: 111.5}
+        - {x: 21, y: 115.5}
+        - {x: 24, y: 117.5}
+        - {x: 27, y: 123.5}
+        - {x: 30, y: 125.5}
+        - {x: 31, y: 128.5}
+        - {x: 34, y: 131.5}
+        - {x: 36, y: 136.5}
+        - {x: 39, y: 140.5}
+        - {x: 39, y: 141.5}
+        - {x: 42, y: 144.5}
+        - {x: 43, y: 144.5}
+        - {x: 56, y: 157.5}
+        - {x: 56, y: 159.5}
+        - {x: 58, y: 160.5}
+        - {x: 59, y: 163.5}
+        - {x: 61, y: 166.5}
+        - {x: 61, y: 169.5}
+        - {x: 66, y: 179.5}
+        - {x: 66, y: 183.5}
+        - {x: 67, y: 184.5}
+        - {x: 67, y: 186.5}
+        - {x: 65, y: 188.5}
+        - {x: 65, y: 192.5}
+        - {x: 63, y: 194.5}
+        - {x: 63, y: 199.5}
+        - {x: 65, y: 202.5}
+        - {x: 65, y: 204.5}
+        - {x: 68, y: 207.5}
+        - {x: 68, y: 210.5}
+        - {x: 69, y: 212.5}
+        - {x: 78, y: 207.5}
+        - {x: 83, y: 207.5}
+        - {x: 84, y: 206.5}
+        - {x: 94, y: 205.5}
+        - {x: 95, y: 204.5}
+        - {x: 97, y: 204.5}
+        - {x: 99, y: 202.5}
+        - {x: 103, y: 202.5}
+        - {x: 104, y: 201.5}
+        - {x: 106, y: 201.5}
+        - {x: 110, y: 197.5}
+        - {x: 111, y: 194.5}
+        - {x: 113, y: 191.5}
+        - {x: 114, y: 188.5}
+        - {x: 120, y: 183.5}
+        - {x: 120, y: 181.5}
+        - {x: 123, y: 178.5}
+        - {x: 123, y: 176.5}
+        - {x: 126, y: 172.5}
+        - {x: 126, y: 167.5}
+        - {x: 127, y: 166.5}
+        - {x: 127, y: 163.5}
+        - {x: 126, y: 162.5}
+        - {x: 126, y: 158.5}
+        - {x: 125, y: 156.5}
+        - {x: 126, y: 155.5}
+        - {x: 126, y: 149.5}
+        - {x: 125, y: 148.5}
+        - {x: 125, y: 146.5}
+        - {x: 123, y: 143.5}
+        - {x: 118, y: 137.5}
+        - {x: 116, y: 137.5}
+        - {x: 112, y: 139.5}
+        - {x: 107, y: 139.5}
+        - {x: 104, y: 137.5}
+        - {x: 102, y: 137.5}
+        - {x: 98, y: 134.5}
+        - {x: 97, y: 131.5}
+        - {x: 97, y: 128.5}
+        - {x: 96, y: 127.5}
+        - {x: 96, y: 124.5}
+        - {x: 95, y: 123.5}
+        - {x: 95, y: 116.5}
+        - {x: 94, y: 115.5}
+        - {x: 93, y: 111.5}
+        - {x: 90, y: 108.5}
+        - {x: 90, y: 106.5}
+        - {x: 87, y: 102.5}
+        - {x: 87, y: 100.5}
+        - {x: 86, y: 99.5}
+        - {x: 86, y: 92.5}
+        - {x: 85, y: 91.5}
+        - {x: 84, y: 91.5}
+        - {x: 79, y: 87.5}
+        - {x: 77, y: 87.5}
+        - {x: 75, y: 85.5}
+        - {x: 73, y: 85.5}
+        - {x: 70, y: 83.5}
+        - {x: 69, y: 81.5}
+        - {x: 67, y: 81.5}
+        - {x: 61, y: 75.5}
+        - {x: 60, y: 75.5}
+        - {x: 57, y: 72.5}
+        - {x: 56, y: 72.5}
+        - {x: 43, y: 60.5}
+        - {x: 43, y: 59.5}
+        - {x: 41, y: 58.5}
+        - {x: 38, y: 57.5}
+        - {x: 24, y: 43.5}
+        - {x: 20, y: 41.5}
+        - {x: 17, y: 38.5}
+        - {x: 13, y: 30.5}
+        - {x: 12, y: 30.5}
+      - - {x: 79, y: 229.5}
+        - {x: 74, y: 229.5}
+        - {x: 72, y: 228.5}
+        - {x: 71, y: 233.5}
+        - {x: 70, y: 234.5}
+        - {x: 72, y: 233.5}
+        - {x: 76, y: 230.5}
+        - {x: 78, y: 230.5}
+        - {x: 83, y: 225.5}
+        - {x: 83, y: 226.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9793cb003e144308c868c921db1d61
+      internalID: 1692860788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_plants_1
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 833
+        width: 398
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab5cf2904e6f42a3987507d8dff2ffe
+      internalID: 1831756790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_plants_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 264
+        width: 198
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d5b3b73b9e4b58b28edf53420fc6d
+      internalID: -1117611046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_plants_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 263
+        width: 199
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe44f3f253a3f40218af777e983b9062
+      internalID: -1468664422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_plants_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 248
+        width: 377
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed6b59c7722346cabf5e6e8ca77c9e0
+      internalID: 1556875807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_plants_5
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 209
+        width: 195
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d00da576c6a74c62be6ef32c4fef919
+      internalID: -920101873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_plants_7
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 171
+        width: 178
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b20b4f03b13245bab8fb31c46e46e2c
+      internalID: -682264483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dead_plants_6: -161348205
+      dead_plants_3: -1468664422
+      dead_plants_1: 1831756790
+      dead_plants_7: -682264483
+      dead_plants_10: 519748316
+      dead_plants_9: 1883658944
+      dead_plants_12: 932885184
+      dead_plants_4: 1556875807
+      dead_plants_2: -1117611046
+      dead_plants_0: 1692860788
+      dead_plants_11: -2147181101
+      dead_plants_8: 542792653
+      dead_plants_5: -920101873
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
