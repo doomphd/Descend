@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637847927303981181
-    m_Hash: 318701895
+      ticks: 637861590748484329
+    m_Hash: 2752338650
   m_LockFileStatus:
     m_FilePath: C:/Users/jesus/OneDrive/Desktop/Descend/Descend/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637847927303991157
-    m_Hash: 3551262383
+      ticks: 637861590748494297
+    m_Hash: 1503805815
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,169 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/jesus/OneDrive/Desktop/Descend/Descend/Packages
 m_EditorVersion: 2021.2.16f1 (559fc0ec6670)
 m_ResolvedPackages:
+- packageId: com.unity.2d.animation@7.0.4
+  testable: 0
+  isDirectDependency: 1
+  version: 7.0.4
+  source: 1
+  resolvedPath: C:\Users\jesus\OneDrive\Desktop\Descend\Descend\Library\PackageCache\com.unity.2d.animation@7.0.4
+  assetPath: Packages/com.unity.2d.animation
+  name: com.unity.2d.animation
+  displayName: 2D Animation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Animation provides all the necessary tooling and runtime components
+    for skeletal animation using Sprites.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.15-preview.1
+    - 1.0.15-preview.2
+    - 1.0.15-preview.3
+    - 1.0.15-preview.4
+    - 1.0.15-preview.5
+    - 1.0.16-preview
+    - 1.0.16-preview.1
+    - 1.0.16-preview.2
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.2.0-preview.1
+    - 2.2.0-preview.4
+    - 2.2.0-preview.5
+    - 2.2.1-preview.1
+    - 2.2.1-preview.2
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.8
+    - 3.1.0
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.5
+    - 3.2.6
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11
+    - 3.2.13
+    - 3.2.14
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.4
+    - 4.2.5
+    - 4.2.6
+    - 4.2.8
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.0.8
+    - 5.0.9
+    - 5.0.10
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.1
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.7
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 7.0.4
+    - 8.0.0-pre.3
+    - 8.0.0-pre.4
+    - 8.0.0
+    - 8.0.1
+    compatible:
+    - 7.0.4
+    verified: 7.0.4
+  dependencies:
+  - name: com.unity.2d.common
+    version: 6.0.3
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 6.0.3
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.6.4
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  keywords:
+  - 2d
+  - animation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637817447860000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    path: 
+  unityLifecycle:
+    version: 7.0.4
+    nextVersion: 
 - packageId: com.unity.2d.pixel-perfect@5.0.1
   testable: 0
   isDirectDependency: 1
@@ -541,6 +704,7 @@ m_ResolvedPackages:
     - 1.14.12
     - 1.14.13
     - 1.14.15
+    - 1.14.16
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -548,6 +712,7 @@ m_ResolvedPackages:
     - 1.15.12
     - 1.15.13
     - 1.15.15
+    - 1.15.16
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -561,6 +726,7 @@ m_ResolvedPackages:
     compatible:
     - 1.15.13
     - 1.15.15
+    - 1.15.16
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -571,7 +737,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.15
+    verified: 1.15.16
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -735,9 +901,11 @@ m_ResolvedPackages:
     - 2.0.11
     - 2.0.12
     - 2.0.14
+    - 2.0.15
     compatible:
     - 2.0.14
-    verified: 2.0.14
+    - 2.0.15
+    verified: 2.0.15
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -3365,9 +3533,11 @@ m_ResolvedPackages:
     - 1.2.1
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
     - 1.2.5
-    verified: 1.2.5
+    - 1.2.6
+    verified: 1.2.6
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3567,168 +3737,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 5.0.2
-    nextVersion: 
-- packageId: com.unity.2d.animation@7.0.4
-  testable: 0
-  isDirectDependency: 0
-  version: 7.0.4
-  source: 1
-  resolvedPath: C:\Users\jesus\OneDrive\Desktop\Descend\Descend\Library\PackageCache\com.unity.2d.animation@7.0.4
-  assetPath: Packages/com.unity.2d.animation
-  name: com.unity.2d.animation
-  displayName: 2D Animation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: 2D Animation provides all the necessary tooling and runtime components
-    for skeletal animation using Sprites.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.15-preview.1
-    - 1.0.15-preview.2
-    - 1.0.15-preview.3
-    - 1.0.15-preview.4
-    - 1.0.15-preview.5
-    - 1.0.16-preview
-    - 1.0.16-preview.1
-    - 1.0.16-preview.2
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.2.0-preview.1
-    - 2.2.0-preview.4
-    - 2.2.0-preview.5
-    - 2.2.1-preview.1
-    - 2.2.1-preview.2
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.8
-    - 3.1.0
-    - 3.1.1
-    - 3.2.1
-    - 3.2.2
-    - 3.2.3
-    - 3.2.4
-    - 3.2.5
-    - 3.2.6
-    - 3.2.9
-    - 3.2.10
-    - 3.2.11
-    - 3.2.13
-    - 3.2.14
-    - 3.2.15
-    - 3.2.16
-    - 3.2.17
-    - 4.0.0
-    - 4.0.1
-    - 4.1.0
-    - 4.1.1
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.4
-    - 4.2.5
-    - 4.2.6
-    - 4.2.8
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.0.7
-    - 5.0.8
-    - 5.0.9
-    - 5.0.10
-    - 5.1.0
-    - 5.1.1
-    - 5.2.0
-    - 6.0.0-pre.1
-    - 6.0.0-pre.2
-    - 6.0.1
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.7
-    - 7.0.0-pre.2
-    - 7.0.0-pre.3
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 7.0.4
-    - 8.0.0-pre.3
-    - 8.0.0-pre.4
-    - 8.0.0
-    compatible:
-    - 7.0.4
-    verified: 7.0.4
-  dependencies:
-  - name: com.unity.2d.common
-    version: 6.0.3
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.2d.common
-    version: 6.0.3
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.5
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.6.4
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  keywords:
-  - 2d
-  - animation
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637817447860000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
-    path: 
-  unityLifecycle:
-    version: 7.0.4
     nextVersion: 
 - packageId: com.unity.burst@1.6.4
   testable: 0

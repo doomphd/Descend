@@ -7,6 +7,7 @@ TagManager:
   - Platform
   - Enemy
   - Apollo
+  - player
   layers:
   - Default
   - TransparentFX
@@ -41,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: smoke
+    uniqueID: 224222385
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
