@@ -54,3 +54,9 @@ TagManager:
   - name: Grass
     uniqueID: 1616670397
     locked: 0
+  - name: Brown Volcano
+    uniqueID: 976266631
+    locked: 0
+  - name: Player
+    uniqueID: 118866253
+    locked: 0
