@@ -173,7 +173,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5477052429543722411}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.01}
 --- !u!1 &3187221963546185205
 GameObject:
@@ -321,10 +321,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4052172854369517188}
+  - {fileID: 3936530161144133071}
   - {fileID: 6656821342454663787}
   - {fileID: 5256654127298741492}
   - {fileID: 8655484785263566541}
+  - {fileID: 4052172854369517188}
   m_Father: {fileID: 8330733831729531243}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -549,13 +550,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6625852492831322594}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7119996, w: -0.70217997}
-  m_LocalPosition: {x: 1.1278995, y: -2.1718717, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.999696, w: 0.024657637}
+  m_LocalPosition: {x: -0.08926538, y: -1.0183073, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8330733831729531243}
-  m_RootOrder: 2
+  m_Father: {fileID: 5477052429543722411}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7168958440468482920
 GameObject:
@@ -664,9 +665,10 @@ GameObject:
   - component: {fileID: 6543944751226688308}
   - component: {fileID: 5022763178572987204}
   - component: {fileID: 1537285531697420070}
+  - component: {fileID: 6258288201597782462}
   m_Layer: 6
   m_Name: cyclops
-  m_TagString: Enemy
+  m_TagString: Cyclop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -685,7 +687,6 @@ Transform:
   m_Children:
   - {fileID: 5477052429543722411}
   - {fileID: 3911347459021462905}
-  - {fileID: 3936530161144133071}
   m_Father: {fileID: 7461378380985252202}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -763,7 +764,7 @@ MonoBehaviour:
   - {fileID: 3936530161144133071}
   - {fileID: 3402004876561671263}
   m_Bounds:
-    m_Center: {x: -1.3518848, y: 0.18968296, z: 0}
+    m_Center: {x: -1.3519077, y: 0.18968344, z: 0}
     m_Extent: {x: 3.700284, y: 5.1281366, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -809,3 +810,24 @@ MonoBehaviour:
   Hitpoints: 1
   MaxHitpoints: 5
   Healthbar: {fileID: 1142881862310647506}
+  alive: 1
+--- !u!95 &6258288201597782462
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8474601109236158765}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1581d63a6cfacb5409c9facef87c7b0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
