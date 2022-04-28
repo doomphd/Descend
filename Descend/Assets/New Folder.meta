@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 313666d5f3a98d141920d61fbfc5d50e
+=======
 <<<<<<< HEAD:Descend/Assets/New Folder.meta
 guid: 2ce4eb01a8f62314d99636026ad4d2b8
 =======
 guid: 6ab70aee4d56447429c680537fbf93ed
 >>>>>>> Jesus-Branch:Descend/Assets/TextMesh Pro/Fonts.meta
+>>>>>>> main
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
