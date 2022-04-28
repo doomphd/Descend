@@ -1052,7 +1052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3090f2b744be014459a6da73d44b27e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackPoint: {fileID: 0}
+  AttackPoint: {fileID: 1987506848354064565}
+  slashPrefab: {fileID: 221664354210720312, guid: edfea97f4bdb69345b487043d7c5f61a, type: 3}
 --- !u!1 &5827036180615455662
 GameObject:
   m_ObjectHideFlags: 0
