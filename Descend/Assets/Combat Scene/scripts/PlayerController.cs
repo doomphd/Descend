@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public int attackDamage = 1;
     public LayerMask enemyLayers;
 
+    public bool faceRight = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,12 +59,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate() 
     {
-            if(moveHorizontal > 0.1f){
-                spriteRenderer.flipX = false ;
-
+            if(moveHorizontal > 0.1f && !faceRight){
+                flip();
             }
-            if(moveHorizontal < -0.1f){
-            spriteRenderer.flipX = true ;
+            if(moveHorizontal < -0.1f && faceRight){
+               flip(); 
 
             }
         if(moveHorizontal > 0.1f || moveHorizontal < -0.1f){
@@ -82,6 +83,12 @@ public class PlayerController : MonoBehaviour
 
         }
 
+
+    }
+
+    private void flip(){
+        faceRight = !faceRight;
+        transform.Rotate(0f,180f,0f);
 
     }
 

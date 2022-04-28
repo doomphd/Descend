@@ -801,6 +801,7 @@ GameObject:
   - component: {fileID: 8581506597848630083}
   - component: {fileID: 6160187533515594855}
   - component: {fileID: 4519205898097084188}
+  - component: {fileID: 2169134025273107883}
   m_Layer: 0
   m_Name: warrior
   m_TagString: Player
@@ -1038,6 +1039,20 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
+  faceRight: 1
+--- !u!114 &2169134025273107883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605110382728678363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3090f2b744be014459a6da73d44b27e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackPoint: {fileID: 0}
 --- !u!1 &5827036180615455662
 GameObject:
   m_ObjectHideFlags: 0
