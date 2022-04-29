@@ -19,8 +19,9 @@ public class SwordSlash : MonoBehaviour
         if(enemy != null)
         {
             enemy.TakeHit(damage);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        
     }
 
 
