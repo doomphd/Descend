@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Combat Scene/Level 2/Hades.unity
+- path: Assets/Visuals/Portal/Portal.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
