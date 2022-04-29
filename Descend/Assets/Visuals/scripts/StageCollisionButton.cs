@@ -3,25 +3,39 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class StageCollisionButton : MonoBehaviour
 {
-    // public GameObject dialogueButton;
-    // public Text buttonText;
+    public GameObject dialogueBox;
+    public TextMeshProUGUI dialogue;
     // public Canvas dialogueCanvas;
     public GameObject button;
     public Canvas canvas;
-    // private int sentenceTracker;
-    // private string [] sentences = {"You made it!", "I'm so glad you are here. I thought we were all DOOMED.", 
-    //                  "That troublesome Hades is at it again. Can you help us?", "Too late you're already here.",
-    //                  "Well? What are you waiting for! Get to it!"};
+    private int sentenceTracker;
+    private string [] sentences = {"x", "y", "z"};
+    private bool buttonClicked = false;
+    public GameObject portal;
 
     private void Start(){
         button.SetActive(false);
         canvas.worldCamera = Camera.main;
+        dialogueBox.SetActive(false);
         // dialogueCanvas.worldCamera = Camera.main;        
-        // sentenceTracker = 0;
+        sentenceTracker = 0;
+        portal.SetActive(false);
+
+
+        
         // dialogueButton.SetActive(false);
+    }
+    
+    void Update()
+    {
+        if (Input.GetKeyDown("space") && buttonClicked == true)
+        {
+            Dialogue();
+        }
     }
 
     // private void onMouseDown(){
@@ -49,6 +63,27 @@ public class StageCollisionButton : MonoBehaviour
         // dialogueButton.SetActive(true);
 
     }
+
+    public void Dialogue(){
+
+        buttonClicked = true;
+        button.SetActive(false);
+
+        if(sentenceTracker < 3){
+
+            dialogueBox.SetActive(true);
+            dialogue.text = sentences[sentenceTracker];
+            sentenceTracker++;
+
+        }else{
+            portal.SetActive(true);
+            SceneManager.LoadScene(0);
+        }
+    }
+
+
+
+    
 
 
   
