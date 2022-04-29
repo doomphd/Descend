@@ -7,14 +7,19 @@ public class EnemyBehaviour : MonoBehaviour
 
     public float Hitpoints;
     public float MaxHitpoints = 5;
-
+    Animator animator;
+	string currentAnimState;
+	const string CYCLOPS_DEATH= "CyclopDeath";
     public HealthbarBehaviour Healthbar;
+
     // Start is called before the first frame update
 
 
  
     void Start()
     {
+        animator = gameObject.GetComponent<Animator>();
+
         if(gameObject.tag == "Apollo"){
             MaxHitpoints = 40;
         }
@@ -28,10 +33,30 @@ public class EnemyBehaviour : MonoBehaviour
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
 
-
         if (Hitpoints <= 0)
         {
-            Destroy(gameObject);
-        }
+            animator.SetTrigger("Death");
+            GetComponent<BoxCollider2D>().enabled = false;
+            StartCoroutine(Wait());
+
+                    }
+  
     }
+    	void ChangeAnimationstate(string newState)
+	{
+		// Stop animation from interrupting itself
+		if (currentAnimState == newState) return;
+
+		// Play new animation
+		animator.Play(newState);
+
+		// Update current state
+		currentAnimState = newState;
+	}
+    private IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(gameObject);
+    }
+
 }
