@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Visuals/Solo or Multi.unity
     guid: bf6f0e1c975c6439f81cad09addf325e
+  - enabled: 1
+    path: Assets/Visuals/Congrats.unity
+    guid: d18c25f6b3c7b4437a1514e246719bc3
+  - enabled: 1
+    path: Assets/Visuals/Game Over.unity
+    guid: 5a8dfaca6fb7f43df8c3e410d775ab65
   m_configObjects: {}
