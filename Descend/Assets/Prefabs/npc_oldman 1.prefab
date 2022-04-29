@@ -59,8 +59,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510429006066104995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.94, y: 10.9, z: -3.6}
-  m_LocalScale: {x: 0.5295304, y: 0.39709187, z: 1}
+  m_LocalPosition: {x: 13.8237, y: 10.8347, z: -3.6}
+  m_LocalScale: {x: 0.6095702, y: 0.48075625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1038633471406004866}
@@ -143,8 +143,13 @@ MonoBehaviour:
   - {fileID: 5086403661169100128}
   - {fileID: 7980167194071773838}
   m_Bounds:
+<<<<<<< HEAD
     m_Center: {x: 1.5570369, y: -2.0202065, z: 0}
     m_Extent: {x: 3.02883, y: 6.1990585, z: 0}
+=======
+    m_Center: {x: 1.5570366, y: -2.0202045, z: 0}
+    m_Extent: {x: 3.0288293, y: 6.1990566, z: 0}
+>>>>>>> 41e05fcfa8f265c7642b9ee21f3f160842ac1057
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -176,6 +181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b59813fd766464190deeabbae07f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueButton: {fileID: 0}
+  buttonText: {fileID: 0}
+  dialogueCanvas: {fileID: 0}
   button: {fileID: 8995216801438533744}
   canvas: {fileID: 8995216801121594386}
 --- !u!1 &2742142834364918699
