@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 5000 1080" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Pixels"/>
+</metadata>
+<defs>
+<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="0" x2="5141.39" y1="841.705" y2="841.705">
+<stop offset="0" stop-color="#36231d"/>
+<stop offset="1" stop-color="#2b1d19"/>
+</linearGradient>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1080" width="5000" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-2" vectornator:layerName="Layer 2">
+<path d="M0 598.115L369.141 418.363L524.172 246.236L816.91 598.708L852.426 336.954L987.611 336.954L1065.79 143.446L1272.77 366.182L1340.74 668.621L1415.68 541.476L1528.51 368.346L1606.32 547.312L1830.45 670.062L1937.6 437.214L2090.73 287.31L2119.67 669.543L2257.72 271.864L2381.28 357L2463.59 606.636L2422.71 900.538L2467.59 746.644L2596.28 596.196L2694.84 310.443L2895.07 643.447L3102.67 192.416L3226.64 258.83L3411.73 653.47L3625.6 475.247L3765.78 191.138C3765.78 191.138 3941.11 385.786 4006.45 472.491C4103.72 601.553 4119.91 833.182 4131.81 858.965C4151.71 902.069 4431.91 289.801 4431.91 289.801L4611.83 350.441L4918.53 721.306L5128.32 411.945L5141.39 1539.96L0 1520.16" fill="url(#LinearGradient)" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>
