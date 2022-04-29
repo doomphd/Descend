@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/World Scenes/Level_1.unity
     guid: b88ce5343811e4a4e8e244856d91bba6
   - enabled: 1
-    path: Assets/Visuals/Menu.unity
+    path: Assets/Visuals/ESC Screen.unity
     guid: 80a23bf6b383148d9bd730bcb547cb2b
   m_configObjects: {}
