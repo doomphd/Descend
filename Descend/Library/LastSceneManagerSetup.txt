@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/World Scenes/Hades_World.unity
-=======
-- path: Assets/Visuals/Title Screen.unity
->>>>>>> 41e05fcfa8f265c7642b9ee21f3f160842ac1057
+- path: Assets/Combat Scene/Level 0/Tutorial.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
