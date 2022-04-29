@@ -28,7 +28,7 @@ public class PortalScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D otherObject){
         Debug.Log("Collision with portal just happened!!!!!");
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(0);
 
     }
 

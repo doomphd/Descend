@@ -74,7 +74,7 @@ public class StageCollisionButton : MonoBehaviour
         }
         else{
             portal.SetActive(true);
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
             buttonClicked = false;
             dialogue.text = "";
 
@@ -96,7 +96,7 @@ public class StageCollisionButton : MonoBehaviour
 
         }
         else{
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(4);
         }
     }
 
