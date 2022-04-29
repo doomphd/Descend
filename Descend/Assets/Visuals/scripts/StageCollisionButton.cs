@@ -82,7 +82,7 @@ public class StageCollisionButton : MonoBehaviour
 
         }
     }
-
+    
     public void HadesDialogue(){
 
         buttonClicked = true;

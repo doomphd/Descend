@@ -11,11 +11,13 @@ public class PortalScript : MonoBehaviour
     public GameObject portal;
     public GameObject stageButton;
     private bool buttonClicked;
+
     // Start is called before the first frame update
     void Start()
     {
         portal.SetActive(false);
         buttonClicked = false;
+
 
     }
 
