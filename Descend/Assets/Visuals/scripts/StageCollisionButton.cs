@@ -9,7 +9,6 @@ public class StageCollisionButton : MonoBehaviour
 {
     public GameObject dialogueBox;
     public TextMeshProUGUI dialogue;
-    // public Canvas dialogueCanvas;
     public GameObject button;
     public Canvas canvas;
     private int sentenceTracker;
@@ -82,7 +81,7 @@ public class StageCollisionButton : MonoBehaviour
 
         }
     }
-    
+
     public void HadesDialogue(){
 
         buttonClicked = true;
