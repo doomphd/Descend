@@ -13,7 +13,11 @@ public class StageCollisionButton : MonoBehaviour
     public GameObject button;
     public Canvas canvas;
     private int sentenceTracker;
-    private string [] sentences = {"x", "y", "z"};
+    private int hadesSentenceTracker;
+    private string [] apolloSentences = {"x", "y", "z"};
+    private string [] hadesSentences = {"1", "2", "3"};
+
+
     private bool buttonClicked = false;
     public GameObject portal;
 
@@ -21,8 +25,8 @@ public class StageCollisionButton : MonoBehaviour
         button.SetActive(false);
         canvas.worldCamera = Camera.main;
         dialogueBox.SetActive(false);
-        // dialogueCanvas.worldCamera = Camera.main;        
         sentenceTracker = 0;
+        hadesSentenceTracker = 0;
         portal.SetActive(false);
 
 
@@ -34,58 +38,69 @@ public class StageCollisionButton : MonoBehaviour
     {
         if (Input.GetKeyDown("space") && buttonClicked == true)
         {
-            Dialogue();
+            if(SceneManager.GetActiveScene().name == "Level_1"){
+                ApolloDialogue();
+
+            }
+            else{
+                HadesDialogue();
+            }
+            
         }
     }
-
-    // private void onMouseDown(){
-        
-    // }
-
-    // private void NoParamaterOnclick()
-    // {
-    //     buttonText.text = sentences[sentenceTracker];
-    //     sentenceTracker++;
-        
-    //     Debug.Log("Button clicked with no parameters");
-    // }
 
     private void OnTriggerEnter2D(Collider2D otherObject){
         Debug.Log("Collision");
         Debug.Log("Player/Emblem Collision");
         button.SetActive(true); 
-        // dialogueButton.SetActive(true);
 
     }
 
     private void OnTriggerExit2D(Collider2D otherObject){
         button.SetActive(false);
-        // dialogueButton.SetActive(true);
 
     }
 
-    public void Dialogue(){
+    public void ApolloDialogue(){
 
         buttonClicked = true;
         button.SetActive(false);
 
-        if(sentenceTracker < 3){
+        if(sentenceTracker < apolloSentences.Length){
 
             dialogueBox.SetActive(true);
-            dialogue.text = sentences[sentenceTracker];
+            dialogue.text = apolloSentences[sentenceTracker];
             sentenceTracker++;
 
-        }else{
+        }
+        else{
             portal.SetActive(true);
             SceneManager.LoadScene(0);
+            buttonClicked = false;
+            dialogue.text = "";
+
+
+        }
+    }
+
+    public void HadesDialogue(){
+
+        buttonClicked = true;
+        button.SetActive(false);
+
+
+        if(hadesSentenceTracker < hadesSentences.Length){
+
+            dialogueBox.SetActive(true);
+            dialogue.text = hadesSentences[hadesSentenceTracker];
+            hadesSentenceTracker++;
+
+        }
+        else{
+            SceneManager.LoadScene(5);
         }
     }
 
 
-
-    
-
-
-  
 
 }
