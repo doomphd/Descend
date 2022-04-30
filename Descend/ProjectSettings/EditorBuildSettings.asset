@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Visuals/Title Screen.unity
     guid: 26a62d482d2674e8fa542869b7e84d86
   - enabled: 1
-    path: Assets/Visuals/Solo or Multi.unity
+    path: Assets/Visuals/ignore/Solo or Multi.unity
     guid: bf6f0e1c975c6439f81cad09addf325e
   - enabled: 1
     path: Assets/Visuals/ESC Screen.unity
