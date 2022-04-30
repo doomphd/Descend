@@ -143,13 +143,8 @@ MonoBehaviour:
   - {fileID: 5086403661169100128}
   - {fileID: 7980167194071773838}
   m_Bounds:
-<<<<<<< HEAD
-    m_Center: {x: 1.5570369, y: -2.0202065, z: 0}
-    m_Extent: {x: 3.02883, y: 6.1990585, z: 0}
-=======
     m_Center: {x: 1.5570366, y: -2.0202045, z: 0}
     m_Extent: {x: 3.0288293, y: 6.1990566, z: 0}
->>>>>>> 41e05fcfa8f265c7642b9ee21f3f160842ac1057
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
