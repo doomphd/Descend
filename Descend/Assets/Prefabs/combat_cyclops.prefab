@@ -664,6 +664,7 @@ GameObject:
   - component: {fileID: 6543944751226688308}
   - component: {fileID: 5022763178572987204}
   - component: {fileID: 1537285531697420070}
+  - component: {fileID: 942514013986055275}
   m_Layer: 6
   m_Name: cyclops
   m_TagString: Enemy
@@ -809,3 +810,23 @@ MonoBehaviour:
   Hitpoints: 1
   MaxHitpoints: 5
   Healthbar: {fileID: 1142881862310647506}
+--- !u!95 &942514013986055275
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8474601109236158765}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: efe5ad8de25c60546a3b0d5a387b37ab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
