@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Visuals/Title Screen.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Combat Scene/Level 1/Apollo.unity
+=======
+- path: Assets/Combat Scene/Level 2/Hades.unity
+>>>>>>> 6afabfc0ffda325f3e6f640d6529f050021e4ab3
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
