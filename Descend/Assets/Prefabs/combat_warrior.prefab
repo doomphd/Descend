@@ -201,7 +201,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 975606711471134706}
   m_FillRect: {fileID: 1835527812589425587}
   m_HandleRect: {fileID: 5029571952003479697}
@@ -1038,6 +1038,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
+  faceRight: 1
 --- !u!1 &5827036180615455662
 GameObject:
   m_ObjectHideFlags: 0
