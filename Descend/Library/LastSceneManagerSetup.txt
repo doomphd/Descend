@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Visuals/ESC Screen.unity
+- path: Assets/Combat Scene/Level 1/Apollo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
