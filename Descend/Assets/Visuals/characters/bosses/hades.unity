@@ -214,6 +214,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1587968048022581483, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3546405
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587968048022581483, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19128346
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587968048022581483, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.453194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587968048022581483, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.8914119
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587968048022581483, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -126.102
+      objectReference: {fileID: 0}
     - target: {fileID: 1854567485138989493, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -258,12 +278,73 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5033522185675682542, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.063439
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033522185675682542, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8865499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033522185675682542, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.36215717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033522185675682542, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.93211704
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033522185675682542, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 137.534
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977004552206737781, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.113164
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977004552206737781, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.85558987
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867083465112024562, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.9495063
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867083465112024562, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1261854
+      objectReference: {fileID: 0}
     - target: {fileID: 9218199755974908201, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
       propertyPath: m_Name
       value: hades
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+--- !u!1 &1236824686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9218199755974908201, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+  m_PrefabInstance: {fileID: 327424202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1236824687
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236824686}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8d0201b2aa0e84c45b84992a8c3ed45b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &209038796574968514
 PrefabInstance:
   m_ObjectHideFlags: 0
