@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Visuals/LoginReg.unity
+- path: Assets/Visuals/Main Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
