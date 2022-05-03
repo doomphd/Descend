@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Visuals/ignore/Solo or Multi.unity
     guid: bf6f0e1c975c6439f81cad09addf325e
   - enabled: 1
-    path: Assets/Visuals/ESC Screen.unity
+    path: Assets/Visuals/ignore/ESC Screen.unity
     guid: 80a23bf6b383148d9bd730bcb547cb2b
   - enabled: 1
     path: Assets/Visuals/Game Over.unity
@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Combat Scene/Level 2/Hades.unity
     guid: 7a672d8fb624d914fa922fa465a97f9d
+  - enabled: 1
+    path: Assets/Visuals/LoginReg.unity
+    guid: 074ff66c2687c418ca5340b71bc87691
   m_configObjects: {}
