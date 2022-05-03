@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Combat Scene/Level 2/Hades.unity
     guid: 7a672d8fb624d914fa922fa465a97f9d
+  - enabled: 1
+    path: Assets/Visuals/LoginReg.unity
+    guid: 074ff66c2687c418ca5340b71bc87691
   m_configObjects: {}
