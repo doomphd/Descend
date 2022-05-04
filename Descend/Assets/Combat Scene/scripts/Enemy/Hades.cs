@@ -12,6 +12,9 @@ public GameObject Player;
     public Transform AttackPoint3;
     public Transform AttackPoint4;
 
+    
+    public AIPlayerDetector Detected;
+
 
     public GameObject abilityPrefab;
     Animator animator;
@@ -19,19 +22,21 @@ public GameObject Player;
     
 
     // Start is called before the first frame update
-
+    void Start() {
+        Detected = FindObjectOfType<AIPlayerDetector>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-       // if(Player.transform.position.x > 120){
+        if(Detected.PlayerDetected == true){
         if(Time.time > next){
 
                 Activate();
                 next = Time.time + cd;
             
         }
-       // }
+        }
     }
 
     void Activate()

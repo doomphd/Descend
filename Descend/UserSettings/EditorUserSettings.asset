@@ -5,18 +5,12 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
-<<<<<<< HEAD
-=======
     RecentlyUsedSceneGuid-0:
       value: 5207570252055f095c5c5e71147b0b44124e4a722f712434797a4a30b1e5623e
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 5a57060501060c0e0b0c5e7243745a44124f1a2c752a766478704531e4e2636e
       flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 545002515751515d0f585e76147a0e44101641787e2e27647b7c1c6ab5e66d3c
-      flags: 0
->>>>>>> Truman5-Branch
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
