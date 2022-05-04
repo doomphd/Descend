@@ -23,6 +23,12 @@ public class EnemyBehaviour : MonoBehaviour
         if(gameObject.tag == "Apollo"){
             MaxHitpoints = 40;
         }
+        if(gameObject.tag == "Cerberus"){
+            MaxHitpoints = 40;
+        }        
+        if(gameObject.tag == "Hades"){
+            MaxHitpoints = 100;
+        }
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
     }

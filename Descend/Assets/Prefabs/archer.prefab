@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 6764480773379469301}
   - component: {fileID: 5242724431510618824}
   - component: {fileID: 5984039022763701443}
+  - component: {fileID: 3868926051727850014}
   m_Layer: 0
   m_Name: archer
   m_TagString: Player
@@ -620,8 +621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca0ada8361f3864bbbfe370ec6041f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cd: 10
   AttackPoint: {fileID: 7910299333025631126}
-  abilityPrefab: {fileID: 1053077042260646084, guid: 24b3a732b97b65f4d8c39d9b021e5b94, type: 3}
+  abilityPrefab: {fileID: 5263577146748973031, guid: c3a318ab976bd544f8a5ff076156c8cb, type: 3}
 --- !u!70 &5984039022763701443
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -638,6 +640,21 @@ CapsuleCollider2D:
   m_Offset: {x: 1.0537227, y: 0.5592222}
   m_Size: {x: 7.1108794, y: 10.601198}
   m_Direction: 0
+--- !u!114 &3868926051727850014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883713729348764380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32612cad01cc1464192d65a7e4ee63b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cd: 1
+  AttackPoint: {fileID: 7910299333025631126}
+  attackPrefab: {fileID: 2243190730803382252, guid: 24b3a732b97b65f4d8c39d9b021e5b94, type: 3}
 --- !u!1 &6883713729649527612
 GameObject:
   m_ObjectHideFlags: 0

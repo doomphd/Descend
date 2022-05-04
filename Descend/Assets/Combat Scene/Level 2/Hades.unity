@@ -238,7 +238,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1658764355}
   offset: {x: 0, y: 2, z: -13}
-  smoothFactor: 3
+  smoothFactor: 10
 --- !u!1 &306429904
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +724,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8402438451926155561, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_Size.x
+      value: 6.972519
+      objectReference: {fileID: 0}
+    - target: {fileID: -8402438451926155561, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_Offset.x
+      value: -1.0783254
+      objectReference: {fileID: 0}
     - target: {fileID: 1854567485138989493, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -768,6 +776,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4882534932207643252, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8286650880582258049, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9218199755974908201, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
       propertyPath: m_Name
       value: hades
@@ -795,11 +811,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.93019974
+      value: 0.93019944
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.36705366
+      value: 0.36705467
       objectReference: {fileID: 0}
     - target: {fileID: 4462766521695143477, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_RootOrder
@@ -1247,6 +1263,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 554875607709466571, guid: 41a324ac9bbf149e598a4d756ebb3c9e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 689833848768118372, guid: 41a324ac9bbf149e598a4d756ebb3c9e, type: 3}
       propertyPath: m_Name
       value: cerberus
@@ -1293,6 +1313,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3214277830469095064, guid: 41a324ac9bbf149e598a4d756ebb3c9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054978596784755592, guid: 41a324ac9bbf149e598a4d756ebb3c9e, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

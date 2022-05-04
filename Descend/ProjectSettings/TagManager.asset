@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Apollo
   - player
+  - Cerberus
+  - Hades
   layers:
   - Default
   - TransparentFX

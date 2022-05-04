@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public class ArcherBasic : MonoBehaviour
 {
-    public float cd = 10;
+    public float cd = 1/2;
     private float next = 0;
     public Transform AttackPoint;
-    public GameObject abilityPrefab;
+    public GameObject attackPrefab;
     Animator animator;
 
     
@@ -19,7 +19,7 @@ public class Weapon : MonoBehaviour
     void Update()
     {
         if(Time.time > next){
-            if(Input.GetButtonDown("Fire1"))
+            if(Input.GetKeyDown(KeyCode.Space))
             {
                 Activate();
                 next = Time.time + cd;
@@ -31,6 +31,6 @@ public class Weapon : MonoBehaviour
     {
         //animator.SetTrigger("Attack");
 
-        Instantiate(abilityPrefab, AttackPoint.position, AttackPoint.rotation);
+        Instantiate(attackPrefab, AttackPoint.position, AttackPoint.rotation);
     }
 }   

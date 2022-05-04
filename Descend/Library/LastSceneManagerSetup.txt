@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Visuals/Main Menu.unity
+=======
+- path: Assets/Visuals/Title Screen.unity
+>>>>>>> Truman5-Branch
   isLoaded: 1
   isActive: 1
   isSubScene: 0
