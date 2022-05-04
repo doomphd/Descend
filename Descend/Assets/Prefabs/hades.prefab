@@ -748,6 +748,7 @@ GameObject:
   - component: {fileID: -8402438451926155561}
   - component: {fileID: 4005863806218838899}
   - component: {fileID: -8492215167164195192}
+  - component: {fileID: 5524800371574670547}
   m_Layer: 6
   m_Name: hades
   m_TagString: Hades
@@ -912,3 +913,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5524800371574670547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9218199755974908201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b73937363864046a20bac76b07414d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 8332556545006487829, guid: 32c47d65d7f96514c98d5a43964503cb, type: 3}
+  cd: 10
+  AttackPoint1: {fileID: 0}
+  AttackPoint2: {fileID: 0}
+  AttackPoint3: {fileID: 0}
+  AttackPoint4: {fileID: 0}
+  abilityPrefab: {fileID: 2915820432773360823, guid: 1109c181a3fb02e4c82609e808d7b9ed, type: 3}

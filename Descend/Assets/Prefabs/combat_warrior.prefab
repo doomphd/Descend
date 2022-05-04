@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3634621708130356052}
   - component: {fileID: 2221551941776798215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3729878852947047526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2655766826681002134}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1697562849326500179}
   - component: {fileID: 6012832090168273568}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1987506848354064565}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1697400239050273497}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: right leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 5029571952003479697}
   - component: {fileID: 3419364668608490852}
   - component: {fileID: 975606711471134706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 618535467230042644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: left leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 1835527812589425587}
   - component: {fileID: 6704180419315013599}
   - component: {fileID: 7068598537084666000}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -467,7 +467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 236349021458397281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: right arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2671273179491803860}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 995568390716052660}
   - component: {fileID: 6358163882646972489}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightArm LimbSolver2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8631483193193548687}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sword Effector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5145601782664197257}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7575769258059517456}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightArm Effector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,7 +725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2870442403050954491}
   - component: {fileID: 8166582143181420816}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sword CCDSolver2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 6160187533515594855}
   - component: {fileID: 4519205898097084188}
   - component: {fileID: 2400981805974636866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: warrior
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1052,6 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca0ada8361f3864bbbfe370ec6041f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cd: 10
   AttackPoint: {fileID: 1987506848354064565}
   abilityPrefab: {fileID: 5767980615076028301, guid: 6be926b5fe2e87649aab1212f7b495d6, type: 3}
 --- !u!1 &5827036180615455662
@@ -1063,7 +1064,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6584148600231412422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1098,7 @@ GameObject:
   - component: {fileID: 6307084799970852303}
   - component: {fileID: 6571884545286088114}
   - component: {fileID: 6873470765249678936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 303917853729980858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: left arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1207,7 +1208,7 @@ GameObject:
   - component: {fileID: 1160480232972758592}
   - component: {fileID: 4234990134758545783}
   - component: {fileID: 4006492793939264869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1312,7 @@ MonoBehaviour:
   Slider: {fileID: 6012832090168273568}
   Low: {r: 1, g: 0, b: 0, a: 1}
   High: {r: 0, g: 1, b: 0, a: 1}
-  Offset: {x: 0, y: 0, z: 0}
+  Offset: {x: 0, y: 2, z: 0}
 --- !u!1 &8688261276216803744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,7 +1322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994070803905341687}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}

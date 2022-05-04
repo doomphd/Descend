@@ -3,11 +3,19 @@
   "Assemblies": [
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
       "LastWriteTime": "2022-05-03T04:31:20.48357Z"
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-05-03T04:31:19.318158Z"
+=======
+      "LastWriteTime": "2022-05-04T00:53:22.8076538Z"
+    },
+    {
+      "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-04T00:53:22.8476894Z"
+>>>>>>> Truman5-Branch
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -19,11 +27,19 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
       "LastWriteTime": "2022-05-03T04:31:19.35212Z"
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-05-03T04:31:19.348711Z"
+=======
+      "LastWriteTime": "2022-05-04T00:53:22.5253754Z"
+    },
+    {
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-04T00:53:22.3011723Z"
+>>>>>>> Truman5-Branch
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -38,6 +54,7 @@
       "LastWriteTime": "2022-03-09T02:16:59Z"
     },
     {
+<<<<<<< HEAD
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-03-09T02:16:59Z"
     },
@@ -48,6 +65,18 @@
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-03-09T02:16:55Z"
+=======
+      "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-04T00:53:22.6760235Z"
+    },
+    {
+      "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-03-09T08:26:30Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-03-09T08:20:20Z"
+>>>>>>> Truman5-Branch
     }
   ],
   "Functions": [
@@ -75,9 +104,15 @@
       "LinkName": "7F9BDFAB3718C423",
       "AssemblyDependencyIndices": [
         0,
+<<<<<<< HEAD
         7,
         2,
         4,
+=======
+        2,
+        4,
+        7,
+>>>>>>> Truman5-Branch
         5,
         6,
         3
@@ -119,8 +154,13 @@
       "LinkName": "104599FDEEB36FAE",
       "AssemblyDependencyIndices": [
         3,
+<<<<<<< HEAD
         10,
         11,
+=======
+        8,
+        9,
+>>>>>>> Truman5-Branch
         2,
         6,
         4,
@@ -135,6 +175,7 @@
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         5,
+        10,
         6,
         2
       ]

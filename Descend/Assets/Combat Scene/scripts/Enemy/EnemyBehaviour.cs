@@ -9,7 +9,6 @@ public class EnemyBehaviour : MonoBehaviour
     public float MaxHitpoints = 5;
     Animator animator;
 	string currentAnimState;
-	const string CYCLOPS_DEATH= "CyclopDeath";
     public HealthbarBehaviour Healthbar;
 
     // Start is called before the first frame update

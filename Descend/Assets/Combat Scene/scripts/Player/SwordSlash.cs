@@ -22,6 +22,13 @@ public class SwordSlash : MonoBehaviour
             Destroy(gameObject);
         }
         
+
+        
+    }
+        private IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(gameObject);
     }
 
 
