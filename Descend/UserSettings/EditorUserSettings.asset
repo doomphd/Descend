@@ -5,56 +5,6 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
-    RecentlyUsedSceneGuid-0:
-<<<<<<< HEAD
-      value: 5207570252055f095c5c5e71147b0b44124e4a722f712434797a4a30b1e5623e
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 545002515751515d0f585e76147a0e44101641787e2e27647b7c1c6ab5e66d3c
-=======
-      value: 505202075d0d0d5f5e0c597315775948174f1e79287d7e6074784f37b6b96069
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 020806055c5759020c5a5b7a11770f154e4f192b7c7922687b78446be3e23039
->>>>>>> Truman5-Branch
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5702025407000f0c5f5c5f24417b084442161c7a74712261787d4537e7b46460
-      flags: 0
-    RecentlyUsedSceneGuid-3:
-      value: 01090c0500005a0f5e565d7315775e44134f1d78787c7e657b2d4462e0e2356e
-      flags: 0
-    RecentlyUsedSceneGuid-4:
-      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
-      flags: 0
-    RecentlyUsedSceneGuid-5:
-      value: 075055045007515a540c0f7313765944134f41727b7c7e6074781c32bbb1676d
-      flags: 0
-    RecentlyUsedSceneGuid-6:
-<<<<<<< HEAD
-      value: 07000c0557000f0d0f5d0f7512770b434116497f7d7c2362797f4a62bbe2376b
-      flags: 0
-    RecentlyUsedSceneGuid-7:
-      value: 5107555057515d035f0a5e7447775a4810164d7e7e7070692f7e186bb6e46c6e
-      flags: 0
-    RecentlyUsedSceneGuid-8:
-      value: 5a54020201535f08090b082616775c1110154b732d7e74342f7f4560e1b7303e
-      flags: 0
-    RecentlyUsedSceneGuid-9:
-      value: 5306000003035f585f58547513770e4815164d79787824677c2b1e6bb5b66d69
-=======
-      value: 5207570252055f095c5c5e71147b0b44124e4a722f712434797a4a30b1e5623e
-      flags: 0
-    RecentlyUsedSceneGuid-7:
-      value: 545002515751515d0f585e76147a0e44101641787e2e27647b7c1c6ab5e66d3c
-      flags: 0
-    RecentlyUsedSceneGuid-8:
-      value: 5a57060501060c0e0b0c5e7243745a44124f1a2c752a766478704531e4e2636e
-      flags: 0
-    RecentlyUsedSceneGuid-9:
-      value: 5107555057515d035f0a5e7447775a4810164d7e7e7070692f7e186bb6e46c6e
->>>>>>> Truman5-Branch
-      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0

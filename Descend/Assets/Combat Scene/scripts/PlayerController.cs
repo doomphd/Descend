@@ -21,8 +21,10 @@ public class PlayerController : MonoBehaviour
 
     Animator animator;
 	string currentAnimState;
-	const string WARRIOR_IDLE= "WarriorIdle";
-	const string WARRIOR_WALKING= "WarriorWalking";
+	// const string WARRIOR_IDLE= "WarriorIdle";
+	// const string WARRIOR_WALKING= "WarriorWalking";
+    [SerializeField] string PLAYER_IDLE_ANIMITION;
+    [SerializeField] string PLAYER_WALKING_ANIMITION;
 
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -69,7 +71,7 @@ public class PlayerController : MonoBehaviour
         if(moveHorizontal > 0.1f || moveHorizontal < -0.1f){
 
 
-            ChangeAnimationstate(WARRIOR_WALKING);
+            ChangeAnimationstate(PLAYER_WALKING_ANIMITION);
             rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
 
         }
@@ -79,7 +81,7 @@ public class PlayerController : MonoBehaviour
             rb2D.AddForce(new Vector2(0f, moveVertical * jumpForce), ForceMode2D.Impulse);
         }
         if(moveHorizontal == 0f && moveVertical == 0f){
-			ChangeAnimationstate(WARRIOR_IDLE);
+			ChangeAnimationstate(PLAYER_IDLE_ANIMITION);
 
         }
 

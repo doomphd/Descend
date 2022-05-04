@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 5242724431510618824}
   - component: {fileID: 5984039022763701443}
   - component: {fileID: 3868926051727850014}
+  - component: {fileID: 2266692645169410872}
   m_Layer: 0
   m_Name: archer
   m_TagString: Player
@@ -534,8 +535,8 @@ MonoBehaviour:
   - {fileID: 6883713729345751010}
   - {fileID: 6883713729221956204}
   m_Bounds:
-    m_Center: {x: 1.0537229, y: 0.5592222, z: 0}
-    m_Extent: {x: 3.55544, y: 5.300599, z: 0}
+    m_Center: {x: 1.0537231, y: 0.5592222, z: 0}
+    m_Extent: {x: 3.5554407, y: 5.300599, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -554,7 +555,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 5
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 20
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -655,6 +656,26 @@ MonoBehaviour:
   cd: 1
   AttackPoint: {fileID: 7910299333025631126}
   attackPrefab: {fileID: 2243190730803382252, guid: 24b3a732b97b65f4d8c39d9b021e5b94, type: 3}
+--- !u!95 &2266692645169410872
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883713729348764380}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b8287d9b2bd1242b8bc81f0d891ce915, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6883713729649527612
 GameObject:
   m_ObjectHideFlags: 0
