@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 5242724431510618824}
   - component: {fileID: 5984039022763701443}
   - component: {fileID: 3868926051727850014}
+  - component: {fileID: 2266692645169410872}
   m_Layer: 7
   m_Name: archer
   m_TagString: Player
@@ -534,8 +535,8 @@ MonoBehaviour:
   - {fileID: 6883713729345751010}
   - {fileID: 6883713729221956204}
   m_Bounds:
-    m_Center: {x: 1.0537231, y: 0.5592222, z: 0}
-    m_Extent: {x: 3.5554407, y: 5.300599, z: 0}
+    m_Center: {x: 1.0537229, y: 0.5592222, z: 0}
+    m_Extent: {x: 3.55544, y: 5.300599, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -554,11 +555,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 5
   m_AngularDrag: 0.05
-  m_GravityScale: 20
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &-4988829214650300257
 BoxCollider2D:
@@ -570,7 +571,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.8626108, y: 0.4945445}
@@ -602,6 +603,8 @@ MonoBehaviour:
   MaxHitpoints: 5
   Healthbar: {fileID: 3784167123152005311}
   spriteRenderer: {fileID: 6883713729348764450}
+  PLAYER_IDLE_ANIMITION: Archer_Idle
+  PLAYER_WALKING_ANIMITION: Archer_Walking
   attackPoint: {fileID: 7910299333025631126}
   attackRange: 0.5
   attackDamage: 1
@@ -621,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca0ada8361f3864bbbfe370ec6041f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cd: 10
+  cd: 0
   AttackPoint: {fileID: 7910299333025631126}
   abilityPrefab: {fileID: 5263577146748973031, guid: c3a318ab976bd544f8a5ff076156c8cb, type: 3}
 --- !u!70 &5984039022763701443

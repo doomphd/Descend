@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5856159557547652815}
   - component: {fileID: 1690846074931196617}
   - component: {fileID: 652321971544066048}
+  - component: {fileID: 7975866457169434690}
   m_Layer: 0
   m_Name: ability_arrow
   m_TagString: Untagged
@@ -122,3 +123,19 @@ MonoBehaviour:
   damage: 5
   speed: 20
   rb: {fileID: 1690846074931196617}
+--- !u!58 &7975866457169434690
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5263577146748973031}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.4177473, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.8922509
