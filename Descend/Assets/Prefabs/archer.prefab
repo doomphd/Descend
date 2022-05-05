@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4389949059946428674}
   - component: {fileID: 2123459431161579923}
   - component: {fileID: 8952181492842745231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 474924989417846308}
   - component: {fileID: 325312124193869269}
   - component: {fileID: 9165363126792271136}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7910299333025631126}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: attackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3146899404541914037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5165221927200942902}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713728370814447}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713728717900214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713728722434635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713729221956204}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713729345751010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,8 @@ GameObject:
   - component: {fileID: 6764480773379469301}
   - component: {fileID: 5242724431510618824}
   - component: {fileID: 5984039022763701443}
-  m_Layer: 0
+  - component: {fileID: 3868926051727850014}
+  m_Layer: 7
   m_Name: archer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -533,8 +534,8 @@ MonoBehaviour:
   - {fileID: 6883713729345751010}
   - {fileID: 6883713729221956204}
   m_Bounds:
-    m_Center: {x: 1.0537229, y: 0.5592222, z: 0}
-    m_Extent: {x: 3.55544, y: 5.300599, z: 0}
+    m_Center: {x: 1.0537231, y: 0.5592222, z: 0}
+    m_Extent: {x: 3.5554407, y: 5.300599, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -553,7 +554,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 5
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 20
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -620,8 +621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca0ada8361f3864bbbfe370ec6041f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cd: 10
   AttackPoint: {fileID: 7910299333025631126}
-  abilityPrefab: {fileID: 1053077042260646084, guid: 24b3a732b97b65f4d8c39d9b021e5b94, type: 3}
+  abilityPrefab: {fileID: 5263577146748973031, guid: c3a318ab976bd544f8a5ff076156c8cb, type: 3}
 --- !u!70 &5984039022763701443
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -638,6 +640,41 @@ CapsuleCollider2D:
   m_Offset: {x: 1.0537227, y: 0.5592222}
   m_Size: {x: 7.1108794, y: 10.601198}
   m_Direction: 0
+--- !u!114 &3868926051727850014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883713729348764380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32612cad01cc1464192d65a7e4ee63b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cd: 1
+  AttackPoint: {fileID: 7910299333025631126}
+  attackPrefab: {fileID: 2243190730803382252, guid: 24b3a732b97b65f4d8c39d9b021e5b94, type: 3}
+--- !u!95 &2266692645169410872
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883713729348764380}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b8287d9b2bd1242b8bc81f0d891ce915, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6883713729649527612
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713729649527555}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6883713729926122524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bone_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +750,7 @@ GameObject:
   - component: {fileID: 690712616439531319}
   - component: {fileID: 6503113776311646497}
   - component: {fileID: 3784167123152005311}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +866,7 @@ GameObject:
   - component: {fileID: 2470910294270326774}
   - component: {fileID: 2280791780469489798}
   - component: {fileID: 4090960179278080882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4689685580623213092}
   - component: {fileID: 6153989993852708683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
