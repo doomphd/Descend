@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Combat Scene/Level 0/Tutorial.unity
-=======
-- path: Assets/Visuals/Game Over.unity
->>>>>>> main
+- path: Assets/Visuals/Title Screen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
