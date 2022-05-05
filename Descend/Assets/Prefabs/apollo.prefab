@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 7359684533889765673}
   - component: {fileID: 610468235508798640}
   - component: {fileID: 477707480683882591}
+  - component: {fileID: 4451276548964932159}
   m_Layer: 0
   m_Name: apollo
   m_TagString: Untagged
@@ -343,6 +344,26 @@ MonoBehaviour:
   AttackPoint3: {fileID: 0}
   Detected: {fileID: 0}
   abilityPrefab: {fileID: 0}
+--- !u!95 &4451276548964932159
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7359684533889765669}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab6951ce5ca1348a59f359c00d3025e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7359684534075293587
 GameObject:
   m_ObjectHideFlags: 0
