@@ -8,6 +8,18 @@
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
       "LastWriteTime": "2022-03-09T08:20:20Z"
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+      "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2022-03-09T08:20:20Z"
+=======
+      "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-04T21:59:24.8197799Z"
+>>>>>>> 1b3cd10e635f59a219a86a548875191e77ea2da6
+>>>>>>> main
+>>>>>>> Jesus-Branch
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -22,12 +34,36 @@
       "LastWriteTime": "2022-03-09T08:26:30Z"
     },
     {
+<<<<<<< HEAD
+=======
+      "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-05T01:35:15.8028891Z"
+=======
+<<<<<<< HEAD
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-05T01:35:15.812891Z"
+    },
+    {
+      "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-05T01:35:15.8028891Z"
+=======
+>>>>>>> Jesus-Branch
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-05-05T02:53:14.2589449Z"
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
       "LastWriteTime": "2022-05-05T02:53:14.593561Z"
+=======
+      "LastWriteTime": "2022-05-04T21:59:24.5995799Z"
+    },
+    {
+      "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-04T21:59:24.4954849Z"
+>>>>>>> 1b3cd10e635f59a219a86a548875191e77ea2da6
+>>>>>>> main
+>>>>>>> Jesus-Branch
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -35,7 +71,20 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
       "LastWriteTime": "2022-05-05T02:53:14.491833Z"
+=======
+      "LastWriteTime": "2022-05-05T01:35:15.2898642Z"
+=======
+<<<<<<< HEAD
+      "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-05T01:35:15.2898642Z"
+=======
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-04T21:59:24.5024908Z"
+>>>>>>> 1b3cd10e635f59a219a86a548875191e77ea2da6
+>>>>>>> main
+>>>>>>> Jesus-Branch
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -112,6 +161,18 @@
       "ModuleHash": "3cc563d98bea6215480e05685d8c7ee3",
       "LinkName": "7F9BDFAB3718C423",
       "AssemblyDependencyIndices": [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        7,
+        3,
+>>>>>>> 1b3cd10e635f59a219a86a548875191e77ea2da6
+>>>>>>> main
+        0,
+>>>>>>> Jesus-Branch
         3,
         2,
         5,
@@ -127,9 +188,26 @@
       "ModuleHash": "446347cb40cc36ce401acb489903bff6",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
+<<<<<<< HEAD
         0,
         1,
         2
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        7,
+        10,
+        3,
+        6,
+        0,
+>>>>>>> 1b3cd10e635f59a219a86a548875191e77ea2da6
+>>>>>>> main
+        5,
+        4,
+        1
+>>>>>>> Jesus-Branch
       ]
     }
   ]

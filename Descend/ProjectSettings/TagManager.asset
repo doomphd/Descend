@@ -10,6 +10,7 @@ TagManager:
   - player
   - Cerberus
   - Hades
+  - Zeus
   layers:
   - Default
   - TransparentFX
