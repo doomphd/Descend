@@ -1703,9 +1703,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5242724431510618824, guid: 9adaf0d660a2c4932b8680bef9afb67e, type: 3}
+      propertyPath: cd
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242724431510618824, guid: 9adaf0d660a2c4932b8680bef9afb67e, type: 3}
       propertyPath: abilityPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5263577146748973031, guid: c3a318ab976bd544f8a5ff076156c8cb, type: 3}
     - target: {fileID: 6883713729348764380, guid: 9adaf0d660a2c4932b8680bef9afb67e, type: 3}
       propertyPath: m_Name
       value: archer
