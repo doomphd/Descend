@@ -71,7 +71,7 @@ public class StageCollisionButton : MonoBehaviour
 
         }
         else{
-            portal.SetActive(true);
+            // portal.SetActive(true);
             SceneManager.LoadScene("Apollo");
             buttonClicked = false;
             dialogue.text = "";
