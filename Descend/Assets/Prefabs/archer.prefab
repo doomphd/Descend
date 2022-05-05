@@ -435,12 +435,7 @@ GameObject:
   - component: {fileID: 5242724431510618824}
   - component: {fileID: 5984039022763701443}
   - component: {fileID: 3868926051727850014}
-<<<<<<< HEAD
-  - component: {fileID: 2266692645169410872}
-  m_Layer: 0
-=======
   m_Layer: 7
->>>>>>> Truman5-Branch
   m_Name: archer
   m_TagString: Player
   m_Icon: {fileID: 0}

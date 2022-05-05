@@ -131,6 +131,7 @@ public class PlayerController : MonoBehaviour
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
+            
         }
     }
 
