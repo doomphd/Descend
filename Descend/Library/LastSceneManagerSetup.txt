@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/World Scenes/Level_1.unity
+=======
+- path: Assets/Combat Scene/Level 2/Hades.unity
+>>>>>>> Truman5-Branch
   isLoaded: 1
   isActive: 1
   isSubScene: 0
