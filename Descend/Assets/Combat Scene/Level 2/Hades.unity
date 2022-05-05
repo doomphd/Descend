@@ -192,13 +192,10 @@ PrefabInstance:
     - target: {fileID: 488900525548303098, guid: 09d0143af97d24cb89e53f9ad0f1361e, type: 3}
       propertyPath: m_RootOrder
       value: 2
-<<<<<<< HEAD
-=======
       objectReference: {fileID: 0}
     - target: {fileID: 488900525548303098, guid: 09d0143af97d24cb89e53f9ad0f1361e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.65450656
->>>>>>> main
       objectReference: {fileID: 0}
     - target: {fileID: 488900525548303098, guid: 09d0143af97d24cb89e53f9ad0f1361e, type: 3}
       propertyPath: m_LocalScale.y
@@ -1107,8 +1104,6 @@ Transform:
 --- !u!1 &1061870370
 GameObject:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
-=======
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1198,13 +1193,10 @@ GameObject:
 --- !u!1001 &1242818973
 PrefabInstance:
   m_ObjectHideFlags: 0
->>>>>>> main
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< HEAD
-=======
     - target: {fileID: -8492215167164195192, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
       propertyPath: m_CullingMode
       value: 0
@@ -1217,7 +1209,6 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -1.0783254
       objectReference: {fileID: 0}
->>>>>>> main
     - target: {fileID: 1854567485138989493, guid: fdc7659138bc146139348e99b12a1e11, type: 3}
       propertyPath: m_RootOrder
       value: 4
