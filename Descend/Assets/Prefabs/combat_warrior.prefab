@@ -1033,6 +1033,8 @@ MonoBehaviour:
   MaxHitpoints: 5
   Healthbar: {fileID: 4006492793939264869}
   spriteRenderer: {fileID: 4600847869160128945}
+  PLAYER_IDLE_ANIMITION: 
+  PLAYER_WALKING_ANIMITION: 
   attackPoint: {fileID: 1987506848354064565}
   attackRange: 0.21
   attackDamage: 1
