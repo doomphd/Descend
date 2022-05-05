@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/World Scenes/Level_1.unity
+    guid: b88ce5343811e4a4e8e244856d91bba6
+  - enabled: 1
+    path: Assets/Combat Scene/Level 2/Hades.unity
+    guid: 7a672d8fb624d914fa922fa465a97f9d
+  - enabled: 1
+    path: Assets/Combat Scene/Level 0/Tutorial.unity
+    guid: 9f2cd3e5fb2037e4d8bf9b04598bfb76
+  - enabled: 1
+    path: Assets/Combat Scene/Level 1/Apollo.unity
+    guid: 16cd70621223d844d928c9bd437c3e6f
+  - enabled: 1
+    path: Assets/World Scenes/Hades_World.unity
+    guid: 4362b5f7223f18744ad089d1548de408
   m_configObjects: {}

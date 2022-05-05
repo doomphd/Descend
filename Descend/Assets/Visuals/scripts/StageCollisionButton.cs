@@ -28,8 +28,6 @@ public class StageCollisionButton : MonoBehaviour
         hadesSentenceTracker = 0;
         portal.SetActive(false);
 
-
-        
         // dialogueButton.SetActive(false);
     }
     
@@ -74,7 +72,7 @@ public class StageCollisionButton : MonoBehaviour
         }
         else{
             portal.SetActive(true);
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("Apollo");
             buttonClicked = false;
             dialogue.text = "";
 
@@ -96,7 +94,7 @@ public class StageCollisionButton : MonoBehaviour
 
         }
         else{
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("Hades");
         }
     }
 
