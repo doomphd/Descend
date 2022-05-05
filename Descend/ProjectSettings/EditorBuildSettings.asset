@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Visuals/Congrats.unity
     guid: d18c25f6b3c7b4437a1514e246719bc3
+  - enabled: 1
+    path: Assets/Combat Scene/Level 1/Apollo.unity
+    guid: 16cd70621223d844d928c9bd437c3e6f
   m_configObjects: {}
