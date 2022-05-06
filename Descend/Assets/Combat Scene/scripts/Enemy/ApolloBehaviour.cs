@@ -13,7 +13,6 @@ public class ApolloBehaviour : MonoBehaviour
     
     public AIPlayerDetector Detected;
 
-
     public GameObject abilityPrefab;
     Animator animator;
 
@@ -22,9 +21,7 @@ public class ApolloBehaviour : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     // Start is called before the first frame update
-    void Start() {
 
-    }
 
     // Update is called once per frame
     void Update()
