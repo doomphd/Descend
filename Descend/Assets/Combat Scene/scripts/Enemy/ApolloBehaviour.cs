@@ -6,11 +6,9 @@ public class ApolloBehaviour : MonoBehaviour
 {
     private float next1 = 0;
     private float next2 = 0;
-    private float next3 = 0;
 
     public Transform AttackPoint1;
     public Transform AttackPoint2;
-    public Transform AttackPoint3;
 
     
     public AIPlayerDetector Detected;
@@ -20,7 +18,9 @@ public class ApolloBehaviour : MonoBehaviour
     Animator animator;
 
     
-
+   void Awake(){
+        animator = GetComponent<Animator>();
+    }
     // Start is called before the first frame update
     void Start() {
 
@@ -48,7 +48,7 @@ public class ApolloBehaviour : MonoBehaviour
 
     void Activate1()
     {
-        //animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");
 
         Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
 
@@ -56,7 +56,7 @@ public class ApolloBehaviour : MonoBehaviour
     }
        void Activate2()
     {
-        //animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");
 
         Instantiate(abilityPrefab, AttackPoint2.position, AttackPoint2.rotation);
 

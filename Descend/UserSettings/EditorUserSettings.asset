@@ -7,6 +7,7 @@ EditorUserSettings:
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5a54020201535f08090b082616775c1110154b732d7e74342f7f4560e1b7303e
 =======
       value: 5107555057515d035f0a5e7447775a4810164d7e7e7070692f7e186bb6e46c6e
@@ -37,6 +38,11 @@ EditorUserSettings:
       value: 5207570252055f095c5c5e71147b0b44124e4a722f712434797a4a30b1e5623e
       flags: 0
     RecentlyUsedSceneGuid-3:
+=======
+      value: 5207570252055f095c5c5e71147b0b44124e4a722f712434797a4a30b1e5623e
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+>>>>>>> Truman5-Branch
       value: 545002515751515d0f585e76147a0e44101641787e2e27647b7c1c6ab5e66d3c
       flags: 0
     vcSharedLogLevel:
