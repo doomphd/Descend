@@ -40,8 +40,8 @@ public class EnemyBehaviour : MonoBehaviour
 
         if (Hitpoints <= 0)
         {
-            animator.SetTrigger("Death");
             GetComponent<BoxCollider2D>().enabled = false;
+            animator.SetTrigger("Death");
             StartCoroutine(Wait());
 
                     }

@@ -902,11 +902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5773533854605953958, guid: ed1f2cf3ee18142719429466bb89c3c6, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 21
-=======
       value: 17
->>>>>>> Truman5-Branch
       objectReference: {fileID: 0}
     - target: {fileID: 5773533854605953958, guid: ed1f2cf3ee18142719429466bb89c3c6, type: 3}
       propertyPath: m_AnchorMax.x
@@ -982,8 +978,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed1f2cf3ee18142719429466bb89c3c6, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!1001 &422124216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1045,7 +1039,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 073910e7ca9bb404e91bfed5b7c10923, type: 3}
->>>>>>> Truman5-Branch
 --- !u!1 &841547587
 GameObject:
   m_ObjectHideFlags: 0
