@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 2533276162352313235}
   - component: {fileID: 2533276162352313234}
   - component: {fileID: 4816077158038252174}
+  - component: {fileID: 3660253612980779962}
   m_Layer: 0
   m_Name: harpy
   m_TagString: Untagged
@@ -268,6 +269,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.48, y: 15.36}
   m_EdgeRadius: 0
+--- !u!95 &3660253612980779962
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2533276162352313233}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5ef72e8ac14a442599d1264e19c1d6a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2533276162501358448
 GameObject:
   m_ObjectHideFlags: 0

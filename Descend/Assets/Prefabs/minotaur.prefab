@@ -317,9 +317,14 @@ GameObject:
   - component: {fileID: 3898249272707446915}
   - component: {fileID: 3898249272707446914}
   - component: {fileID: 8027741648686932083}
+<<<<<<< HEAD
   - component: {fileID: 5526300315121138690}
   - component: {fileID: 3416393573287956718}
   - component: {fileID: 229961668007728011}
+=======
+  - component: {fileID: 7208935700699511304}
+  - component: {fileID: 7865563320475988744}
+>>>>>>> main
   m_Layer: 0
   m_Name: minotaur
   m_TagString: Untagged
@@ -495,9 +500,36 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3898249272707446917}
+<<<<<<< HEAD
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
+=======
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!95 &7865563320475988744
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898249272707446917}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 27369890799324ae4b9eaec7e30fc2b2, type: 2}
+>>>>>>> main
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
