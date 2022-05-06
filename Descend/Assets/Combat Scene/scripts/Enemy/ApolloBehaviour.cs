@@ -4,27 +4,64 @@ using UnityEngine;
 
 public class ApolloBehaviour : MonoBehaviour
 {
+    private float next1 = 0;
+    private float next2 = 0;
 
-    public float Hitpoints;
-    public float MaxHitpoints = 40;
-    public HealthbarBehaviour Healthbar;
+    public Transform AttackPoint1;
+    public Transform AttackPoint2;
+
+    
+    public AIPlayerDetector Detected;
+
+
+    public GameObject abilityPrefab;
+    Animator animator;
+
+    
+   void Awake(){
+        animator = GetComponent<Animator>();
+    }
     // Start is called before the first frame update
-    void Start()
-    {
-        Hitpoints = MaxHitpoints;
-        Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+    void Start() {
+
     }
 
     // Update is called once per frame
-    public void TakeHit(float damage)
+    void Update()
     {
-        Hitpoints -= damage;
-        Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        if(Detected.PlayerDetected == true){
+            if(Time.time > next1){
 
-
-        if (Hitpoints <= 0)
-        {
-            Destroy(gameObject);
+                Activate1();
+                next1 = Time.time + Random.Range(3,7);
+            
         }
+            if(Time.time > next2){
+
+                Activate2();
+                next2 = Time.time + Random.Range(1,5);
+            
+        }
+ 
+       }
     }
+
+    void Activate1()
+    {
+        animator.SetTrigger("Attack");
+
+        Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
+
+
+    }
+       void Activate2()
+    {
+        animator.SetTrigger("Attack");
+
+        Instantiate(abilityPrefab, AttackPoint2.position, AttackPoint2.rotation);
+
+
+    } 
+    
+
 }

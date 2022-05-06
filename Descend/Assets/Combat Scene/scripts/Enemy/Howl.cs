@@ -21,16 +21,11 @@ public class Howl : MonoBehaviour
             player.TakeHit(damage);
             Destroy(gameObject);
         }
-        StartCoroutine(Wait());
         
 
         
     }
-        private IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(1);
-        Destroy(gameObject);
-    }
+
 
 
 }

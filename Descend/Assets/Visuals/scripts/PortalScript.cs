@@ -67,6 +67,10 @@ public class PortalScript : MonoBehaviour
        if(SceneManager.GetActiveScene().name == "Level_1"){
             SceneManager.LoadScene("Hades_World");
        }
+       if(SceneManager.GetActiveScene().name == "Hades"){
+           SceneManager.LoadScene("Congrats");
+       }
+
 
        if(SceneManager.GetActiveScene().name == "Hades"){
            SceneManager.LoadScene("Congrats");
