@@ -10,7 +10,7 @@ public class Fireball : MonoBehaviour
     public Rigidbody2D rb;
 
     void Start(){
-        rb.velocity = transform.right * speed;
+        rb.velocity = transform.right *  speed;
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo){
