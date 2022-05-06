@@ -20,7 +20,9 @@ public class Cerberus : MonoBehaviour
     Animator animator;
 
     
-
+    void Awake(){
+        animator = GetComponent<Animator>();
+    }
     // Start is called before the first frame update
     void Start() {
 
@@ -53,7 +55,7 @@ public class Cerberus : MonoBehaviour
 
     void Activate1()
     {
-        //animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack1");
 
         Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
 
@@ -61,13 +63,14 @@ public class Cerberus : MonoBehaviour
     }
        void Activate2()
     {
-        //animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack2");
 
         Instantiate(abilityPrefab, AttackPoint2.position, AttackPoint2.rotation);
 
 
     }   void Activate3()
     {
+        animator.SetTrigger("Attack3");
 
         Instantiate(abilityPrefab, AttackPoint3.position, AttackPoint3.rotation);
 
