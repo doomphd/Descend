@@ -18,11 +18,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-<<<<<<< HEAD
   lastModified: 637873685998477438
-=======
-  lastModified: 637873581387913154
->>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
   FileSizes: []
   Exists: 1
 --- !u!114 &-5525887787796581070
@@ -42,6 +38,7 @@ MonoBehaviour:
   Name: Master.strings
   StudioPath: bank:/Master.strings
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastModified: 637853946740000000
 =======
 <<<<<<< HEAD
@@ -49,6 +46,9 @@ MonoBehaviour:
 =======
   lastModified: 637873581387933166
 >>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+>>>>>>> main
+=======
+  lastModified: 637873685998480509
 >>>>>>> main
   FileSizes:
   - Name: Desktop
@@ -71,11 +71,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Test.bank
   Name: Test
   StudioPath: bank:/Test
-<<<<<<< HEAD
   lastModified: 637873685998552084
-=======
-  lastModified: 637873581388013244
->>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
   FileSizes: []
   Exists: 1
 >>>>>>> main
@@ -271,11 +267,13 @@ MonoBehaviour:
   cacheTime: 637853946740000000
 =======
   - {fileID: -5525887787796581070}
-<<<<<<< HEAD
   cacheTime: 637873685998552084
+<<<<<<< HEAD
 =======
   cacheTime: 637873581388013244
 >>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+>>>>>>> main
+=======
 >>>>>>> main
   cacheVersion: 10
 --- !u!114 &1400358832714100059
