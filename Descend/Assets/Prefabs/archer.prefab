@@ -587,7 +587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca0ada8361f3864bbbfe370ec6041f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cd: 0
+  cd: 10
   AttackPoint: {fileID: 7910299333025631126}
   abilityPrefab: {fileID: 5263577146748973031, guid: c3a318ab976bd544f8a5ff076156c8cb, type: 3}
 --- !u!70 &5984039022763701443
