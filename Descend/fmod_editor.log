@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 [LOG] System::create                           : Header version = 2.02.04. Current version = 2.02.04.
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
 [LOG] SystemI::init                            : Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
@@ -18,3 +20,14 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+>>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+>>>>>>> main
+=======
+>>>>>>> main

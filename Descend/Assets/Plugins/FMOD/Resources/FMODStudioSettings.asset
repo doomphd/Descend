@@ -470,10 +470,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 0
-  HasPlatforms: 0
-  sourceProjectPath: 
-  sourceBankPath: Assets/StreamingAssets/Audio/GeneratedSoundbanks
+  HasSourceProject: 1
+  HasPlatforms: 1
+  sourceProjectPath: ../../../Downloads/Team9/Team9.fspro
+  sourceBankPath: ../../../Downloads/Team9/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
