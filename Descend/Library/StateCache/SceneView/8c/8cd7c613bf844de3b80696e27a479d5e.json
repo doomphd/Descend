@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":false,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":7.602138519287109,"y":-2.9787347316741945,"z":0.7000177502632141},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":10.619466781616211,"orthographic":true}
 =======
 <<<<<<< HEAD
@@ -19,3 +20,6 @@
 >>>>>>> main
 >>>>>>> Truman5-Branch
 >>>>>>> main
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":false,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":20.290781021118165,"y":20.858232498168947,"z":-0.5727402567863464},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":46.82948684692383,"orthographic":true}
+>>>>>>> adele_branch

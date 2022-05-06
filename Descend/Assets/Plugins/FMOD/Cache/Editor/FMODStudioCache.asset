@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!114 &-8759448450834905410
+=======
+--- !u!114 &-6977589978436649430
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,6 +13,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Hub/Locomotion/Jump_Landing_Sand
   m_EditorClassIdentifier: 
@@ -55,6 +60,20 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 0
 --- !u!114 &-7648425150970838958
+=======
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637873685998480509
+  FileSizes:
+  - Name: 
+    Value: 1298
+  Exists: 1
+--- !u!114 &-6823871971887140903
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +92,11 @@ MonoBehaviour:
     Data3: 2081779897
     Data4: -1403602596
   Banks:
+<<<<<<< HEAD
   - {fileID: 6907669024265433333}
+=======
+  - {fileID: -1432831338229542787}
+>>>>>>> adele_branch
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -81,7 +104,38 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< HEAD
 --- !u!114 &-6221500996744184300
+=======
+--- !u!114 &-5806750615509072576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hub/Ambiance
+  m_EditorClassIdentifier: 
+  Path: event:/Hub/Ambiance
+  Guid:
+    Data1: 755212583
+    Data2: 1257360505
+    Data3: 1596666017
+    Data4: 1321619183
+  Banks:
+  - {fileID: -1432831338229542787}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69927
+--- !u!114 &-3857998727975069918
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,7 +154,11 @@ MonoBehaviour:
     Data3: -278706753
     Data4: 279592578
   Banks:
+<<<<<<< HEAD
   - {fileID: 5566664945211814018}
+=======
+  - {fileID: 1384537516990529055}
+>>>>>>> adele_branch
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -108,7 +166,11 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< HEAD
 --- !u!114 &-4499293836773869424
+=======
+--- !u!114 &-3583635509640760757
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,7 +189,11 @@ MonoBehaviour:
     Data3: -1414109807
     Data4: 423874146
   Banks:
+<<<<<<< HEAD
   - {fileID: 6907669024265433333}
+=======
+  - {fileID: -1432831338229542787}
+>>>>>>> adele_branch
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -135,6 +201,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< HEAD
 --- !u!114 &-3861161437365966420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +230,9 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 115287
 --- !u!114 &-1922763984733818797
+=======
+--- !u!114 &-2774865804858662649
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,23 +242,76 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Hub/Ambiance
+  m_Name: event:/Music/Hub_Music
   m_EditorClassIdentifier: 
-  Path: event:/Hub/Ambiance
+  Path: event:/Music/Hub_Music
   Guid:
-    Data1: 755212583
-    Data2: 1257360505
-    Data3: 1596666017
-    Data4: 1321619183
+    Data1: 505762539
+    Data2: 1143926792
+    Data3: 437047973
+    Data4: 1869789719
   Banks:
+<<<<<<< HEAD
   - {fileID: 6907669024265433333}
+=======
+  - {fileID: -1432831338229542787}
+>>>>>>> adele_branch
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+<<<<<<< HEAD
   Length: 69927
+=======
+  Length: 115287
+--- !u!114 &-1432831338229542787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637873685998477438
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-928822442878803863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hub/Locomotion/Footstep_Wood
+  m_EditorClassIdentifier: 
+  Path: event:/Hub/Locomotion/Footstep_Wood
+  Guid:
+    Data1: -1775464084
+    Data2: 1195538275
+    Data3: -1503577680
+    Data4: -1346383176
+  Banks:
+  - {fileID: -1432831338229542787}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+>>>>>>> adele_branch
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +325,7 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+<<<<<<< HEAD
   - {fileID: 6298316483456956661}
   - {fileID: 6907669024265433333}
   - {fileID: 5566664945211814018}
@@ -225,6 +349,31 @@ MonoBehaviour:
   cacheTime: 637873581388013244
   cacheVersion: 10
 --- !u!114 &127169169579909651
+=======
+  - {fileID: -6977589978436649430}
+  - {fileID: -1432831338229542787}
+  - {fileID: 1384537516990529055}
+  EditorEvents:
+  - {fileID: 3659080380602511547}
+  - {fileID: -5806750615509072576}
+  - {fileID: 1546382655677522280}
+  - {fileID: -6823871971887140903}
+  - {fileID: -928822442878803863}
+  - {fileID: 6277708532844431839}
+  - {fileID: -3583635509640760757}
+  - {fileID: -2774865804858662649}
+  - {fileID: 893033759729879624}
+  - {fileID: 4516428266207705443}
+  - {fileID: -3857998727975069918}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1432831338229542787}
+  StringsBanks:
+  - {fileID: -6977589978436649430}
+  cacheTime: 637873685998552084
+  cacheVersion: 10
+--- !u!114 &893033759729879624
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,7 +392,11 @@ MonoBehaviour:
     Data3: 944645031
     Data4: -1118060954
   Banks:
+<<<<<<< HEAD
   - {fileID: 5566664945211814018}
+=======
+  - {fileID: 1384537516990529055}
+>>>>>>> adele_branch
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -251,7 +404,11 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 16666
+<<<<<<< HEAD
 --- !u!114 &1433318068690136432
+=======
+--- !u!114 &1384537516990529055
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,6 +417,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Hub/Locomotion/Footstep_Sand
   m_EditorClassIdentifier: 
@@ -271,6 +429,37 @@ MonoBehaviour:
     Data4: -1132043283
   Banks:
   - {fileID: 6907669024265433333}
+=======
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Test.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Test.bank
+  Name: Test
+  StudioPath: bank:/Test
+  lastModified: 637873685998552084
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1546382655677522280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hub/Locomotion/Jump_Landing_Sand
+  m_EditorClassIdentifier: 
+  Path: event:/Hub/Locomotion/Jump_Landing_Sand
+  Guid:
+    Data1: 1987144249
+    Data2: 1164405426
+    Data3: -1772509028
+    Data4: 453434186
+  Banks:
+  - {fileID: -1432831338229542787}
+>>>>>>> adele_branch
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -278,7 +467,11 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< HEAD
 --- !u!114 &3399680362571371045
+=======
+--- !u!114 &3659080380602511547
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,7 +490,11 @@ MonoBehaviour:
     Data3: -1503577680
     Data4: -1346383176
   Banks:
+<<<<<<< HEAD
   - {fileID: 6907669024265433333}
+=======
+  - {fileID: -1432831338229542787}
+>>>>>>> adele_branch
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -305,7 +502,11 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< HEAD
 --- !u!114 &4518275222976202703
+=======
+--- !u!114 &4516428266207705443
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -324,7 +525,11 @@ MonoBehaviour:
     Data3: -930658375
     Data4: -451332051
   Banks:
+<<<<<<< HEAD
   - {fileID: 5566664945211814018}
+=======
+  - {fileID: 1384537516990529055}
+>>>>>>> adele_branch
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -332,6 +537,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 54857
+<<<<<<< HEAD
 --- !u!114 &5566664945211814018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +557,9 @@ MonoBehaviour:
   FileSizes: []
   Exists: 1
 --- !u!114 &6298316483456956661
+=======
+--- !u!114 &6277708532844431839
+>>>>>>> adele_branch
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -359,6 +568,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
@@ -388,3 +598,23 @@ MonoBehaviour:
   lastModified: 637873581387913154
   FileSizes: []
   Exists: 1
+=======
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hub/Locomotion/Jump_Landing_Dirt
+  m_EditorClassIdentifier: 
+  Path: event:/Hub/Locomotion/Jump_Landing_Dirt
+  Guid:
+    Data1: -189314122
+    Data2: 1278324448
+    Data3: -1414109807
+    Data4: 423874146
+  Banks:
+  - {fileID: -1432831338229542787}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+>>>>>>> adele_branch

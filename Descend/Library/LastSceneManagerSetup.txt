@@ -1,5 +1,6 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Combat Scene/Level 0/Tutorial.unity
 =======
 <<<<<<< HEAD
@@ -12,6 +13,9 @@ sceneSetups:
 - path: Assets/Visuals/characters/grunts/harpy.unity
 >>>>>>> Truman5-Branch
 >>>>>>> main
+=======
+- path: Assets/Combat Scene/Level 1/Apollo.unity
+>>>>>>> adele_branch
   isLoaded: 1
   isActive: 1
   isSubScene: 0
