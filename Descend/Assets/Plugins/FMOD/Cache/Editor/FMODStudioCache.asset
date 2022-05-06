@@ -1,6 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!114 &-7429075454506871287
+=======
+--- !u!114 &-6328910248732714197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+<<<<<<< HEAD
+  lastModified: 637873685998477438
+=======
+  lastModified: 637873581387913154
+>>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5525887787796581070
+>>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,11 +41,44 @@ MonoBehaviour:
   Path: ../../../Downloads/Team9/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< HEAD
   lastModified: 637853946740000000
+=======
+<<<<<<< HEAD
+  lastModified: 637873685998480509
+=======
+  lastModified: 637873581387933166
+>>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+>>>>>>> main
   FileSizes:
   - Name: Desktop
     Value: 1298
   Exists: 1
+<<<<<<< HEAD
+=======
+--- !u!114 &-2307308597858283881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Test.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Test.bank
+  Name: Test
+  StudioPath: bank:/Test
+<<<<<<< HEAD
+  lastModified: 637873685998552084
+=======
+  lastModified: 637873581388013244
+>>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+  FileSizes: []
+  Exists: 1
+>>>>>>> main
 --- !u!114 &-2294951800788206266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,8 +266,17 @@ MonoBehaviour:
   MasterBanks:
   - {fileID: 6297708311466057689}
   StringsBanks:
+<<<<<<< HEAD
   - {fileID: -7429075454506871287}
   cacheTime: 637853946740000000
+=======
+  - {fileID: -5525887787796581070}
+<<<<<<< HEAD
+  cacheTime: 637873685998552084
+=======
+  cacheTime: 637873581388013244
+>>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+>>>>>>> main
   cacheVersion: 10
 --- !u!114 &1400358832714100059
 MonoBehaviour:
