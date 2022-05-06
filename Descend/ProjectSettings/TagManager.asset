@@ -11,6 +11,8 @@ TagManager:
   - Cerberus
   - Hades
   - Zeus
+  - Harpy
+  - Minotaur
   layers:
   - Default
   - TransparentFX

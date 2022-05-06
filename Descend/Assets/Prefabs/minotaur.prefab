@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6528659745764631631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 4332879640983176992}
   - component: {fileID: 6585624320374835062}
   - component: {fileID: 6328561903422338648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249271593790745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249271912597345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249271971810378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249272151187974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249272452310167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249272641167385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,9 +320,9 @@ GameObject:
   - component: {fileID: 7865563320475988744}
   - component: {fileID: 3416393573287956718}
   - component: {fileID: 5526300315121138690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: minotaur
-  m_TagString: Untagged
+  m_TagString: Minotaur
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -336,7 +336,7 @@ Transform:
   m_GameObject: {fileID: 3898249272707446917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.1278, y: -1.4063, z: 0}
-  m_LocalScale: {x: 0.4589733, y: 0.45887855, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3898249272641167385}
@@ -420,8 +420,8 @@ MonoBehaviour:
   - {fileID: 3898249272151187974}
   - {fileID: 3898249273573190510}
   m_Bounds:
-    m_Center: {x: -0.24970531, y: 0.3088479, z: 0}
-    m_Extent: {x: 4.7961273, y: 5.3039722, z: 0}
+    m_Center: {x: -0.24970531, y: 0.30884743, z: 0}
+    m_Extent: {x: 4.7961264, y: 5.3039727, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -486,12 +486,12 @@ MonoBehaviour:
   cd: 5
   next: 0
   attackPoint: {fileID: 5043729983586066665}
-  attackRange: 0.5
+  attackRange: 0.4
   attackDamage: 1
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
-  Detected: {fileID: 0}
+  Detected: {fileID: 3704473711168738739}
 --- !u!114 &5526300315121138690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3898249273573190510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bone_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,7 +547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5043729983586066665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MinoAttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 9183012313412742768}
   - component: {fileID: 3273396363537914701}
   - component: {fileID: 3320021445252174081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185741146092866620}
   - component: {fileID: 2810660911339074093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8426765836178599935}
   - component: {fileID: 3704473711168738739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MinoDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -823,15 +823,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <PlayerDetected>k__BackingField: 0
   detectorOrigin: {fileID: 3898249272707446912}
-  detectorSize: {x: 3, y: 5}
-  detectorOriginOffset: {x: -1, y: 0}
+  detectorSize: {x: 2, y: 2}
+  detectorOriginOffset: {x: -0.5, y: 0}
   detectionDelay: 0.3
   detectorLayerMask:
     serializedVersion: 2
     m_Bits: 128
   gizmoIdleColor: {r: 0, g: 1, b: 0, a: 1}
   gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 1}
-  showGizmos: 1
+  showGizmos: 0
 --- !u!1 &8372198442089341984
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 1794880771748347587}
   - component: {fileID: 3082769067496157759}
   - component: {fileID: 7316681975748031017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
