@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637873418510000000
-    m_Hash: 51855159
-=======
       ticks: 637869581427928065
     m_Hash: 2752338650
->>>>>>> Truman5-Branch
   m_LockFileStatus:
     m_FilePath: C:/Users/Truman/Desktop/Descend/Descend/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637873418510000000
-    m_Hash: 1108340520
-=======
       ticks: 637869581427928065
     m_Hash: 1503805815
->>>>>>> Truman5-Branch
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

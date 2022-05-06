@@ -1,5 +1,6 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Combat Scene/Level 1/Apollo.unity
 =======
 <<<<<<< HEAD
@@ -16,6 +17,9 @@ sceneSetups:
 - path: Assets/Combat Scene/Level 2/Hades.unity
 >>>>>>> Truman5-Branch
 >>>>>>> 821036a56539221b6e211bbedc07ace95c384b4c
+=======
+- path: Assets/Combat Scene/Level 0/Tutorial.unity
+>>>>>>> Truman5-Branch
   isLoaded: 1
   isActive: 1
   isSubScene: 0
