@@ -961,3 +961,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   Detected: {fileID: 4654485783349222931}
+  IDLE_ANIMATION: CyclopsIdle

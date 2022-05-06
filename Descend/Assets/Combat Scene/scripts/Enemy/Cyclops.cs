@@ -14,6 +14,7 @@ public class Cyclops : MonoBehaviour
 	string currentAnimState;
     public AIPlayerDetector Detected;
 
+
     // Start is called before the first frame update
 
 
@@ -22,8 +23,11 @@ public class Cyclops : MonoBehaviour
     {
         animator = gameObject.GetComponent<Animator>();
 
-
     }
+
+
+    // Start is called before the first frame update
+  
     void Update()
     {
         if(Detected.PlayerDetected == true){
