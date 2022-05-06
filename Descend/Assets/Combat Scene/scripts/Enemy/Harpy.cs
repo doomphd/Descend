@@ -9,9 +9,6 @@ public class Harpy : MonoBehaviour
 
     public Transform AttackPoint1;
    
-
-
-    
     public AIPlayerDetector Detected;
 
 
