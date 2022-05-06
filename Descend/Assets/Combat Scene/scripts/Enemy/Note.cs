@@ -6,7 +6,7 @@ public class Note : MonoBehaviour
 {
 
     public int damage = 1;
-    public float speed = 20f;
+    public float speed = 10f;
     public Rigidbody2D rb;
 
     void Start(){
