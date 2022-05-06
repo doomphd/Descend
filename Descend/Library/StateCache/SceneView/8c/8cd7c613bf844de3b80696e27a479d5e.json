@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":4.750344276428223,"y":2.073627471923828,"z":-1.6780256032943726},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":21.306507110595704,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":4.203915596008301,"y":-2.0922791957855226,"z":-1.5362367630004883},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":7.12765645980835,"orthographic":true}
+>>>>>>> Jesus-Branch

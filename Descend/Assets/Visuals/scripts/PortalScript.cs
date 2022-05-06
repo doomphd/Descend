@@ -9,6 +9,7 @@ public class PortalScript : MonoBehaviour
 {
     public GameObject player;
     public GameObject portal;
+    public GameObject nextLevelDialogue;
 
     // Start is called before the first frame update
     void Start()
@@ -27,24 +28,18 @@ public class PortalScript : MonoBehaviour
 
         // }
 
+        nextLevelDialogue.SetActive(false);
+
         if(SceneManager.GetActiveScene().name == "Level_1" && VariableManager.exitedApolloCombat == true){
             portal.SetActive(true);
+            nextLevelDialogue.SetActive(true);
             Debug.Log("Tried making prtal apprear");
         }
 
 
-        // if(SceneManager.GetActiveScene().name != "Tutorial"){
-        //     portal.SetActive(true);
-            
-        // }
-      
+
     }
 
-    // void Update(){
-    //     if(SceneManager.GetActiveScene().name == "Apollo"){
-    //         VariableManager.exitedApolloWorld = true;
-    //     }
-    // }
 
 
     public void MakePortalAppear(){
@@ -71,6 +66,10 @@ public class PortalScript : MonoBehaviour
            SceneManager.LoadScene("Congrats");
        }
 
+
+       if(SceneManager.GetActiveScene().name == "Hades"){
+           SceneManager.LoadScene("Congrats");
+       }
 
     }
 
