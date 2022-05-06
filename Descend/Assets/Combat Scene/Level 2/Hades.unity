@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 17213510}
   - component: {fileID: 17213511}
   m_Layer: 6
-  m_Name: Detector
+  m_Name: HadesDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_Bits: 128
   gizmoIdleColor: {r: 0, g: 1, b: 0, a: 1}
   gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 1}
-  showGizmos: 0
+  showGizmos: 1
 --- !u!4 &166463506
 Transform:
   m_ObjectHideFlags: 0
@@ -1328,11 +1328,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 303917853729980858, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.2160114
+      value: -0.2159933
       objectReference: {fileID: 0}
     - target: {fileID: 303917853729980858, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.97639084
+      value: 0.97639483
       objectReference: {fileID: 0}
     - target: {fileID: 707460584892934418, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1348,11 +1348,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD
       value: 0.93019974
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.36705366
+=======
+      value: 0.93020535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.36703974
+>>>>>>> Truman5-Branch
       objectReference: {fileID: 0}
     - target: {fileID: 4462766521695143477, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_RootOrder
@@ -1420,15 +1428,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5145601782664197257, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9568783
+      value: 0.95686847
       objectReference: {fileID: 0}
     - target: {fileID: 5145601782664197257, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.290489
+      value: 0.29052174
       objectReference: {fileID: 0}
     - target: {fileID: 5288861038207744802, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5288861038207744802, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalPosition.y

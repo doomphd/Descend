@@ -35,10 +35,7 @@ public class Hades : MonoBehaviour
     void Awake(){
         animator = GetComponent<Animator>();
     }
-    void Start() {
-        Detected = FindObjectOfType<AIPlayerDetector>();
 
-    }
 
     // Update is called once per frame
     void Update()

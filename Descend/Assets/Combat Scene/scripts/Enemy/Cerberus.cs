@@ -23,7 +23,6 @@ public class Cerberus : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        Detected = FindObjectOfType<AIPlayerDetector>();
 
     }
 
@@ -49,7 +48,7 @@ public class Cerberus : MonoBehaviour
                 next3 = Time.time + Random.Range(2,10);
             
         }
-        }
+       }
     }
 
     void Activate1()

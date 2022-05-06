@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":51.72336196899414,"y":-0.49237677454948428,"z":4.69603157043457},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":4.982187747955322,"orthographic":true}
+=======
+<<<<<<< HEAD
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":40.785892486572269,"y":11.222967147827149,"z":-0.5061208009719849},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":51.329139709472659,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":false,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-78.7247085571289,"y":13.075820922851563,"z":-10.125662803649903},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":24.691137313842775,"orthographic":true}
+>>>>>>> Truman5-Branch
+>>>>>>> e529b04e4ff285e4b8e2b56129119b0460db966e

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Howl : MonoBehaviour
+public class Note : MonoBehaviour
 {
 
     public int damage = 1;

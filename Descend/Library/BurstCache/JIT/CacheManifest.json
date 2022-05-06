@@ -111,8 +111,23 @@
       "ModuleHash": "585b436f212b30d4b0c32d7b62b33aac",
       "LinkName": "4E9252389FAD9FEE",
       "AssemblyDependencyIndices": [
+<<<<<<< HEAD
         10,
         8,
+=======
+<<<<<<< HEAD
+        8,
+        10,
+        2,
+        7,
+=======
+        7,
+<<<<<<< HEAD
+=======
+        10,
+>>>>>>> main
+>>>>>>> Truman5-Branch
+>>>>>>> e529b04e4ff285e4b8e2b56129119b0460db966e
         3,
         4,
         7,
