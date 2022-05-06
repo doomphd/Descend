@@ -346,6 +346,7 @@ MonoBehaviour:
   target: {fileID: 1658764355}
   offset: {x: 0, y: 2, z: -13}
   smoothFactor: 10
+  sceneName: Game Over
 --- !u!114 &118628815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,11 +1524,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.93019974
+      value: 0.9301956
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.36705366
+      value: 0.3670641
       objectReference: {fileID: 0}
     - target: {fileID: 4462766521695143477, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_RootOrder
@@ -1595,11 +1596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5145601782664197257, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9568818
+      value: 0.95688117
       objectReference: {fileID: 0}
     - target: {fileID: 5145601782664197257, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.29047737
+      value: 0.2904799
       objectReference: {fileID: 0}
     - target: {fileID: 5288861038207744802, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalPosition.x
