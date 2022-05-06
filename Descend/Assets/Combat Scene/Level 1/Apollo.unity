@@ -855,19 +855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.w
-<<<<<<< HEAD
-      value: 0.9926094
-      objectReference: {fileID: 0}
-    - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.12135336
-=======
       value: 0.9926093
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.12135373
->>>>>>> Truman5-Branch
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1562,6 +1554,10 @@ PrefabInstance:
     - target: {fileID: 3936530161144133071, guid: 073910e7ca9bb404e91bfed5b7c10923, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654485783349222931, guid: 073910e7ca9bb404e91bfed5b7c10923, type: 3}
+      propertyPath: showGizmos
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5022763178572987204, guid: 073910e7ca9bb404e91bfed5b7c10923, type: 3}
       propertyPath: m_IsTrigger
