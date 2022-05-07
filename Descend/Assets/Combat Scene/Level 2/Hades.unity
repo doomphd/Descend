@@ -362,14 +362,14 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -2087099445
-      Data2: 1110400733
-      Data3: -930658375
-      Data4: -451332051
-    Path: event:/Test/Test_Music_2D
+      Data1: -1470816967
+      Data2: 1287164076
+      Data3: 1894642600
+      Data4: -1141776225
+    Path: event:/Music/Hades_Combat_Music
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -850,6 +850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1233696610}
   portal: {fileID: 949326245}
+  nextLevelDialogue: {fileID: 0}
 --- !u!60 &949326247
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1524,11 +1525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.93019974
+      value: 0.93019944
       objectReference: {fileID: 0}
     - target: {fileID: 3634621708130356052, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.36705366
+      value: 0.36705467
       objectReference: {fileID: 0}
     - target: {fileID: 4462766521695143477, guid: 7c9554ae9b29049489c1dd7f10b6e3a9, type: 3}
       propertyPath: m_RootOrder

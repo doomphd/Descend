@@ -468,6 +468,9 @@ GameObject:
   - component: {fileID: 78742846}
   - component: {fileID: 78742845}
   - component: {fileID: 78742848}
+  - component: {fileID: 78742851}
+  - component: {fileID: 78742850}
+  - component: {fileID: 78742849}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -557,6 +560,67 @@ MonoBehaviour:
   offset: {x: 0, y: 2.7, z: -13}
   smoothFactor: 3
   sceneName: Game Over
+--- !u!114 &78742849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78742844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 449862986
+      Data2: 1127738137
+      Data3: 229073069
+      Data4: -341496942
+    Path: event:/Music/Apollo_Combat_Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &78742850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78742844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks: []
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &78742851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78742844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 78742844}
+  ListenerNumber: -1
 --- !u!1001 &150120051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -941,11 +1005,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99260944
+      value: 0.9926093
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.12135297
+      value: 0.12135373
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534204256637, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -953,11 +1017,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534232727312, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.13798404
+      value: 0.13798338
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534232727312, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.99043447
+      value: 0.9904346
       objectReference: {fileID: 0}
     - target: {fileID: 7359684534232727312, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1041,11 +1105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7359684535076680454, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9929238
+      value: 0.9929239
       objectReference: {fileID: 0}
     - target: {fileID: 7359684535076680454, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.118753895
+      value: 0.118752465
       objectReference: {fileID: 0}
     - target: {fileID: 7359684535076680454, guid: 101fd5bfecd7c491d895eff8b7731c93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
