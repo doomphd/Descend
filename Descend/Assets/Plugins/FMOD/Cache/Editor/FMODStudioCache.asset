@@ -168,7 +168,7 @@ MonoBehaviour:
   - {fileID: 8514123837745983965}
   StringsBanks:
   - {fileID: 953953704607222749}
-  cacheTime: 637874156941423788
+  cacheTime: 637873685998552084
   cacheVersion: 10
 --- !u!114 &422008042407370059
 MonoBehaviour:
@@ -239,7 +239,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637874156941343736
+  lastModified: 637873685998480509
   FileSizes:
   - Name: 
     Value: 1298
@@ -367,7 +367,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Test.bank
   Name: Test
   StudioPath: bank:/Test
-  lastModified: 637874156941423788
+  lastModified: 637873685998552084
   FileSizes: []
   Exists: 1
 --- !u!114 &8514123837745983965
@@ -385,6 +385,6 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637874156941333745
+  lastModified: 637873685998477438
   FileSizes: []
   Exists: 1
