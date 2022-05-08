@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3056471972915805249}
   - component: {fileID: 8821623044642861449}
   - component: {fileID: 4492805116421181618}
+  - component: {fileID: 900513174275377810}
+  - component: {fileID: 4825377254898523016}
   m_Layer: 0
   m_Name: hades_fireball
   m_TagString: Untagged
@@ -160,3 +162,50 @@ MonoBehaviour:
   damage: 1
   speed: 5
   rb: {fileID: 3056471972915805249}
+--- !u!114 &900513174275377810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915820432773360823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks: []
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &4825377254898523016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915820432773360823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1701653476
+      Data2: 1166631586
+      Data3: 253302195
+      Data4: 1664955825
+    Path: event:/SFX/Enemies/Hades/Heades_Fireball
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
