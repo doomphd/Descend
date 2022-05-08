@@ -61,25 +61,24 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate() 
     {
-            if(moveHorizontal > 0.1f && !faceRight){
-                flip();
-            }
-            if(moveHorizontal < -0.1f && faceRight){
-               flip(); 
+        if(moveHorizontal > 0.1f && !faceRight){
+            flip();
+        }
+        if(moveHorizontal < -0.1f && faceRight){
+            flip(); 
+        }
 
-            }
-        if(moveHorizontal > 0.1f || moveHorizontal < -0.1f){
-
-
+        if(moveHorizontal > 0.1f || moveHorizontal < -0.1f)
+        {
             ChangeAnimationstate(PLAYER_WALKING_ANIMITION);
             rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
-
         }
 
         if(!isJumping && moveVertical > 0.1f)
         {
             rb2D.AddForce(new Vector2(0f, moveVertical * jumpForce), ForceMode2D.Impulse);
         }
+        
         if(moveHorizontal == 0f && moveVertical == 0f){
 			ChangeAnimationstate(PLAYER_IDLE_ANIMITION);
 
