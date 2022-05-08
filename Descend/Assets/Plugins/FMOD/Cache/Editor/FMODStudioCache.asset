@@ -528,7 +528,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< HEAD
   lastModified: 637874750985071677
+=======
+  lastModified: 637874747311968848
+>>>>>>> Truman5-Branch
   FileSizes: []
   Exists: 1
 --- !u!114 &-2564612662084732809
@@ -735,7 +739,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< HEAD
   lastModified: 637874750985081981
+=======
+  lastModified: 637874747311978858
+>>>>>>> Truman5-Branch
   FileSizes:
   - Name: 
     Value: 2830
@@ -829,7 +837,11 @@ MonoBehaviour:
   - {fileID: -2662470072756247188}
   StringsBanks:
   - {fileID: -525181765074632485}
+<<<<<<< HEAD
   cacheTime: 637874750985081981
+=======
+  cacheTime: 637874747311978858
+>>>>>>> Truman5-Branch
   cacheVersion: 10
 --- !u!114 &422008042407370059
 MonoBehaviour:

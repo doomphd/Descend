@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 5976986854182652844}
   m_Layer: 6
   m_Name: cyclops
-  m_TagString: Enemy
+  m_TagString: Cyclops
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -961,4 +961,3 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   Detected: {fileID: 4654485783349222931}
-  IDLE_ANIMATION: CyclopsIdle
