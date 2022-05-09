@@ -56,30 +56,37 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
         {
             Attack();
+        if(gameObject.tag == "Swordsman"){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Sword_Attack", GetComponent<Transform>().position);
+        } 
+                if(gameObject.tag == "Archer"){
+           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Bow_Attack", GetComponent<Transform>().position);
+        } 
         }
     }
 
     void FixedUpdate() 
     {
-            if(moveHorizontal > 0.1f && !faceRight){
-                flip();
-            }
-            if(moveHorizontal < -0.1f && faceRight){
-               flip(); 
+        if(moveHorizontal > 0.1f && !faceRight){
+            flip();
+        }
+        if(moveHorizontal < -0.1f && faceRight){
+            flip(); 
+        }
 
-            }
-        if(moveHorizontal > 0.1f || moveHorizontal < -0.1f){
-
-
+        if(moveHorizontal > 0.1f || moveHorizontal < -0.1f)
+        {
             ChangeAnimationstate(PLAYER_WALKING_ANIMITION);
             rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
-
         }
 
         if(!isJumping && moveVertical > 0.1f)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_Jumping_1", GetComponent<Transform>().position);
+
             rb2D.AddForce(new Vector2(0f, moveVertical * jumpForce), ForceMode2D.Impulse);
         }
+        
         if(moveHorizontal == 0f && moveVertical == 0f){
 			ChangeAnimationstate(PLAYER_IDLE_ANIMITION);
 
@@ -124,12 +131,16 @@ public class PlayerController : MonoBehaviour
 
     public void TakeHit(float damage)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_Damaged_1", GetComponent<Transform>().position);
+
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
 
 
         if (Hitpoints <= 0)
         {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_Death", GetComponent<Transform>().position);
+
             Destroy(gameObject);
             
         }

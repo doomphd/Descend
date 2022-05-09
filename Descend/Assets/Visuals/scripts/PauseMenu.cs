@@ -29,6 +29,7 @@ public class PauseMenu : MonoBehaviour {
 
     void Pause ()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/UI/Button_Popup", GetComponent<Transform>().position);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;

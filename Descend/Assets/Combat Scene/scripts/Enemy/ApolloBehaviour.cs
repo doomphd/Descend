@@ -46,6 +46,7 @@ public class ApolloBehaviour : MonoBehaviour
     void Activate1()
     {
         animator.SetTrigger("Attack");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Apollo/Apollo_Attack", GetComponent<Transform>().position);
 
         Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
 
@@ -54,6 +55,7 @@ public class ApolloBehaviour : MonoBehaviour
        void Activate2()
     {
         animator.SetTrigger("Attack");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Apollo/Apollo_Attack", GetComponent<Transform>().position);
 
         Instantiate(abilityPrefab, AttackPoint2.position, AttackPoint2.rotation);
 

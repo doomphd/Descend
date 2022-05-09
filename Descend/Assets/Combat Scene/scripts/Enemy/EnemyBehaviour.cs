@@ -37,9 +37,51 @@ public class EnemyBehaviour : MonoBehaviour
     {
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        if(gameObject.tag == "Apollo"){
+           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Apollo/Apollo_Damaged", GetComponent<Transform>().position);
+        } 
+        if(gameObject.tag == "Cerberus"){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Damaged", GetComponent<Transform>().position);
 
+        }        
+        if(gameObject.tag == "Hades"){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Hades/Hades_Damaged", GetComponent<Transform>().position);
+
+        }
+        if(gameObject.tag == "Cyclops"){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cyclops/Cyclops_Damaged", GetComponent<Transform>().position);
+
+        }
+        if(gameObject.tag == "Harpy"){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Harpy/Harpy_Damaged", GetComponent<Transform>().position);
+        }        
+        if(gameObject.tag == "Minotaur"){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Minotaur/Minotaur_Damaged", GetComponent<Transform>().position);
+
+        }
         if (Hitpoints <= 0)
         {
+            if(gameObject.tag == "Apollo"){
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Apollo/Apollo_Death", GetComponent<Transform>().position);
+            }
+            if(gameObject.tag == "Cerberus"){
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Death", GetComponent<Transform>().position);
+
+            }           
+            if(gameObject.tag == "Hades"){
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Hades/Hades_Death", GetComponent<Transform>().position);
+
+            }
+            if(gameObject.tag == "Cyclops"){
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cyclops/Cyclops_Death", GetComponent<Transform>().position);
+
+            }
+            if(gameObject.tag == "Harpy"){
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Harpy/Harpy_Death", GetComponent<Transform>().position);
+            }        
+            if(gameObject.tag == "Minotaur"){
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Minotaur/Minotaur_Death", GetComponent<Transform>().position);
+            }
             GetComponent<BoxCollider2D>().enabled = false;
             animator.SetTrigger("Death");
             StartCoroutine(Wait());

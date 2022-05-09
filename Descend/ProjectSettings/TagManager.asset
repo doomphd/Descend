@@ -13,6 +13,9 @@ TagManager:
   - Zeus
   - Harpy
   - Minotaur
+  - Cyclops
+  - Archer
+  - Swordsman
   layers:
   - Default
   - TransparentFX
