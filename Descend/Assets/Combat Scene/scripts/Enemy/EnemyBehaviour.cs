@@ -38,8 +38,8 @@ public class EnemyBehaviour : MonoBehaviour
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if(gameObject.tag == "Apollo"){
-            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Apollo/Apollo_Damaged", GetComponent<Transform>().position);
-        }
+           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Apollo/Apollo_Damaged", GetComponent<Transform>().position);
+        } 
         if(gameObject.tag == "Cerberus"){
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Damaged", GetComponent<Transform>().position);
 
