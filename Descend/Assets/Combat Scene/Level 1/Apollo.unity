@@ -342,13 +342,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 1
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 25
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &58260094
 GameObject:
@@ -953,13 +948,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 1552981362}
-  m_RootOrder: 0
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 20
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &164018738
 PrefabInstance:
@@ -1138,13 +1128,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 3
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 35
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &227257640
 GameObject:
@@ -1327,13 +1312,8 @@ Transform:
   m_LocalScale: {x: -1.000478, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 2
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 26
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &286405937
 PrefabInstance:
@@ -1858,13 +1838,8 @@ Transform:
   m_LocalScale: {x: -1.0061805, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 6
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 38
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &528322952
 PrefabInstance:
@@ -2062,13 +2037,8 @@ Transform:
   m_LocalScale: {x: -1.000478, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 4
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 28
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741786607
 GameObject:
@@ -2186,11 +2156,7 @@ Transform:
   - {fileID: 1269396224}
   - {fileID: 524649153}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 16
-=======
   m_RootOrder: 31
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804131328
 GameObject:
@@ -2553,13 +2519,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 1552981362}
-  m_RootOrder: 1
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 21
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &954185408
 PrefabInstance:
@@ -2755,13 +2716,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 1
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 33
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &958889834
 PrefabInstance:
@@ -2997,13 +2953,8 @@ Transform:
   m_LocalScale: {x: -1.0061805, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 2
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 34
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1088003093
 GameObject:
@@ -3113,13 +3064,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 5
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 29
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1091083330
 GameObject:
@@ -3409,13 +3355,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 5
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 37
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1294381380
 GameObject:
@@ -3525,13 +3466,8 @@ Transform:
   m_LocalScale: {x: -1.000478, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 6
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 30
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1311389035
 GameObject:
@@ -3641,13 +3577,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 1552981362}
-  m_RootOrder: 2
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 22
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1366636254 stripped
 Transform:
@@ -3762,13 +3693,8 @@ Transform:
   m_LocalScale: {x: -1.0061805, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 0
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 32
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1457517851
 PrefabInstance:
@@ -4507,13 +4433,8 @@ Transform:
   m_LocalScale: {x: -1.0061805, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 741786610}
-  m_RootOrder: 4
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 36
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1909527647 stripped
 GameObject:
@@ -5047,13 +4968,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 3
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 27
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2006035430
 GameObject:
@@ -5274,13 +5190,8 @@ Transform:
   m_LocalScale: {x: -1.000478, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 2128428530}
-  m_RootOrder: 0
-=======
   m_Father: {fileID: 0}
   m_RootOrder: 24
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2128428527
 GameObject:
@@ -5398,11 +5309,7 @@ Transform:
   - {fileID: 1088003096}
   - {fileID: 1294381383}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 15
-=======
   m_RootOrder: 23
->>>>>>> Truman5-Branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2128741532
 PrefabInstance:
