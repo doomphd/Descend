@@ -6,6 +6,7 @@ public class ApolloBehaviour : MonoBehaviour
 {
     private float next1 = 0;
     private float next2 = 0;
+    private float count = 3;
 
     public Transform AttackPoint1;
     public Transform AttackPoint2;
@@ -29,14 +30,15 @@ public class ApolloBehaviour : MonoBehaviour
         if(Detected.PlayerDetected == true){
             if(Time.time > next1){
 
-                Activate1();
-                next1 = Time.time + Random.Range(3,7);
+                Activate2();
+                count++;
+                next1 = Time.time + Random.Range(1,5);
             
         }
-            if(Time.time > next2){
+            if(count >= 3){
 
-                Activate2();
-                next2 = Time.time + Random.Range(1,5);
+                Activate1();
+                count = 0;
             
         }
  

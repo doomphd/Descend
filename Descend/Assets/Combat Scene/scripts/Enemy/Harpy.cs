@@ -42,6 +42,8 @@ public class Harpy : MonoBehaviour
     void Activate1()
     {
         animator.SetTrigger("Attack");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Harpy/Harpy_Attack", GetComponent<Transform>().position);
+
         Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
     }
 
