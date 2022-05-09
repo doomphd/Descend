@@ -97,6 +97,8 @@ public class Hades : MonoBehaviour
     void Activate1()
     {
         animator.SetTrigger("Attack");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Hades/Hades_Staff_Pound", GetComponent<Transform>().position);
+
         Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
     }
         void Activate2()

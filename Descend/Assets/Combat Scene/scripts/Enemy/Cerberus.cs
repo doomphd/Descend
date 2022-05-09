@@ -55,6 +55,8 @@ public class Cerberus : MonoBehaviour
 
     void Activate1()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Attack", GetComponent<Transform>().position);
+
         animator.SetTrigger("Attack1");
 
         Instantiate(abilityPrefab, AttackPoint1.position, AttackPoint1.rotation);
@@ -63,6 +65,8 @@ public class Cerberus : MonoBehaviour
     }
        void Activate2()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Attack", GetComponent<Transform>().position);
+
         animator.SetTrigger("Attack2");
 
         Instantiate(abilityPrefab, AttackPoint2.position, AttackPoint2.rotation);
@@ -70,6 +74,8 @@ public class Cerberus : MonoBehaviour
 
     }   void Activate3()
     {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Attack", GetComponent<Transform>().position);
+
         animator.SetTrigger("Attack3");
 
         Instantiate(abilityPrefab, AttackPoint3.position, AttackPoint3.rotation);

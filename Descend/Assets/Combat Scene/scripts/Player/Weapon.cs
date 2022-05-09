@@ -21,6 +21,12 @@ public class Weapon : MonoBehaviour
         if(Time.time > next){
             if(Input.GetButtonDown("Fire1"))
             {
+                        if(gameObject.tag == "Swordsman"){
+           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Big_Slash", GetComponent<Transform>().position);
+        } 
+                if(gameObject.tag == "Archer"){
+           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Magical_Arrow", GetComponent<Transform>().position);
+        } 
                 Activate();
                 next = Time.time + cd;
             }

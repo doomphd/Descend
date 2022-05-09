@@ -43,17 +43,22 @@ public class StageCollisionButton : MonoBehaviour
             if(SceneManager.GetActiveScene().name == "Level_1"){
                 if(zeusInteracted == true){
                     Debug.Log("gOING INTO ZEUS FUNCTION");
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/NPC/Zeus", GetComponent<Transform>().position);
 
                     ZeusDialogue();
 
                 }
                 else{
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/NPC/Old_Man", GetComponent<Transform>().position);
+
                     ApolloDialogue();
 
                 }
 
             }
             else{
+                                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/NPC/Old_Man", GetComponent<Transform>().position);
+
                 HadesDialogue();
             }
             
