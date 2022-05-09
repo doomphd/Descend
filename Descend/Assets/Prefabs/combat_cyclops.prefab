@@ -136,14 +136,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017628791332029968}
-  m_LocalRotation: {x: 0, y: -0, z: -0.78184366, w: 0.62347454}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8166051, w: 0.5771968}
   m_LocalPosition: {x: 1.9351678, y: 0.061246634, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5256654127298741492}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -109.493}
 --- !u!1 &2852107776640957531
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +588,92 @@ Transform:
   m_Father: {fileID: 5477052429543722411}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7503812264781758465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6704642912638652594}
+  - component: {fileID: 4654485783349222931}
+  m_Layer: 6
+  m_Name: CyclopsDetected
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6704642912638652594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503812264781758465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8330733831729531243}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4654485783349222931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503812264781758465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dba7a4e9cce5a469b033e22ef6eccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PlayerDetected>k__BackingField: 0
+  detectorOrigin: {fileID: 8330733831729531243}
+  detectorSize: {x: 1.4, y: 2}
+  detectorOriginOffset: {x: -0.5, y: 0}
+  detectionDelay: 0.3
+  detectorLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  gizmoIdleColor: {r: 0, g: 1, b: 0, a: 1}
+  gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 1}
+  showGizmos: 0
+--- !u!1 &7762042113715843735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4226769026830908877}
+  m_Layer: 6
+  m_Name: CyclopAttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226769026830908877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7762042113715843735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.65, y: 0.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8330733831729531243}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7768393753982567770
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7461378380985252202}
+  - component: {fileID: 8254243675786250166}
   m_Layer: 0
   m_Name: combat_cyclops
   m_TagString: Untagged
@@ -651,6 +738,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &8254243675786250166
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8457407634944621925}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: efe5ad8de25c60546a3b0d5a387b37ab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8474601109236158765
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,9 +772,10 @@ GameObject:
   - component: {fileID: 5022763178572987204}
   - component: {fileID: 1537285531697420070}
   - component: {fileID: 942514013986055275}
+  - component: {fileID: 5976986854182652844}
   m_Layer: 6
   m_Name: cyclops
-  m_TagString: Enemy
+  m_TagString: Cyclops
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,6 +795,8 @@ Transform:
   - {fileID: 5477052429543722411}
   - {fileID: 3911347459021462905}
   - {fileID: 3936530161144133071}
+  - {fileID: 4226769026830908877}
+  - {fileID: 6704642912638652594}
   m_Father: {fileID: 7461378380985252202}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -764,8 +874,8 @@ MonoBehaviour:
   - {fileID: 3936530161144133071}
   - {fileID: 3402004876561671263}
   m_Bounds:
-    m_Center: {x: -1.3518913, y: 0.18968344, z: 0}
-    m_Extent: {x: 3.7002823, y: 5.128136, z: 0}
+    m_Center: {x: -1.2488847, y: 0.18968296, z: 0}
+    m_Extent: {x: 3.5972838, y: 5.1281366, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -782,7 +892,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.21, y: 0.18199158}
+  m_Offset: {x: 0.20511794, y: 0.18199158}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.54753417, y: 0.49009708}
@@ -793,7 +903,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.2, y: 10.24089}
+  m_Size: {x: 5.089764, y: 10.24089}
   m_EdgeRadius: 0
 --- !u!114 &1537285531697420070
 MonoBehaviour:
@@ -830,3 +940,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5976986854182652844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8474601109236158765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f671365ed3f3da4596b39393ed731ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cd: 5
+  next: 0
+  attackPoint: {fileID: 4226769026830908877}
+  attackRange: 0.23
+  attackDamage: 1
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  Detected: {fileID: 4654485783349222931}

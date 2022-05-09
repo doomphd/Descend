@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Visuals/LoginReg.unity
+=======
+- path: Assets/Combat Scene/Level 2/Hades.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0

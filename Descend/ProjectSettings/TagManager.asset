@@ -8,6 +8,14 @@ TagManager:
   - Enemy
   - Apollo
   - player
+  - Cerberus
+  - Hades
+  - Zeus
+  - Harpy
+  - Minotaur
+  - Cyclops
+  - Archer
+  - Swordsman
   layers:
   - Default
   - TransparentFX
@@ -16,8 +24,8 @@ TagManager:
   - Water
   - UI
   - Enemies
-  - 
-  - 
+  - Players
+  - Platform
   - 
   - 
   - 

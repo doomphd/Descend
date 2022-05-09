@@ -1,5 +1,457 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9071854810281156209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Hades/Hades_Staff_Pound
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Hades/Hades_Staff_Pound
+  Guid:
+    Data1: 27839127
+    Data2: 1192615995
+    Data3: -1495472754
+    Data4: 1483298362
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-9019549245558312057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Cerberus/Cerberus_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Cerberus/Cerberus_Death
+  Guid:
+    Data1: -2083374803
+    Data2: 1321354167
+    Data3: 1039569308
+    Data4: 1812894529
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7406967619771697167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Hades/Heades_Fireball
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Hades/Heades_Fireball
+  Guid:
+    Data1: -1701653476
+    Data2: 1166631586
+    Data3: 253302195
+    Data4: 1664955825
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7155947376107149629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Apollo/Apollo_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Apollo/Apollo_Death
+  Guid:
+    Data1: 185994491
+    Data2: 1074298576
+    Data3: 288107667
+    Data4: 1445546434
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6088309683660376501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Cyclops/Cyclops_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Cyclops/Cyclops_Death
+  Guid:
+    Data1: -2134261390
+    Data2: 1224962089
+    Data3: -1206003269
+    Data4: 444628294
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6050092246394994359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637876408937224230
+  FileSizes:
+  - Name: 
+    Value: 2830
+  Exists: 1
+--- !u!114 &-5597293987991538183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Player_Jumping_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Player_Jumping_1
+  Guid:
+    Data1: -1454546092
+    Data2: 1162125769
+    Data3: -1338639205
+    Data4: -774196015
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5376691807974489693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Player_Damaged_2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Player_Damaged_2
+  Guid:
+    Data1: 2031022315
+    Data2: 1168170452
+    Data3: 792755872
+    Data4: 1039454369
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5351528388326772599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Big_Slash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Big_Slash
+  Guid:
+    Data1: -1406915545
+    Data2: 1223007045
+    Data3: -1522143338
+    Data4: 1738054868
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5267890257771468016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Hades/Hades_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Hades/Hades_Death
+  Guid:
+    Data1: 1251622577
+    Data2: 1272790641
+    Data3: 1900254903
+    Data4: -819004271
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4685210698621777220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Minotaur/Minotaur_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Minotaur/Minotaur_Attack
+  Guid:
+    Data1: 500274842
+    Data2: 1094980410
+    Data3: -1501695320
+    Data4: 1688928605
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3307512638528501681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambiance/Apollo_Ambiance
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambiance/Apollo_Ambiance
+  Guid:
+    Data1: 1308678497
+    Data2: 1213878705
+    Data3: 388306363
+    Data4: 1921205849
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13741
+--- !u!114 &-2729413500345155669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Magical_Arrow
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Magical_Arrow
+  Guid:
+    Data1: -1497593134
+    Data2: 1093904364
+    Data3: -319549037
+    Data4: -931159584
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2115078576826829702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Harpy/Harpy_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Harpy/Harpy_Death
+  Guid:
+    Data1: 215294112
+    Data2: 1285213186
+    Data3: 3832221
+    Data4: -1597967697
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2041909065090191382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Apollo_Combat_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Apollo_Combat_Music
+  Guid:
+    Data1: 449862986
+    Data2: 1127738137
+    Data3: 229073069
+    Data4: -341496942
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46265
+--- !u!114 &-1458045823681362798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Harpy/Harpy_Damaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Harpy/Harpy_Damaged
+  Guid:
+    Data1: -1562565275
+    Data2: 1078739344
+    Data3: 92167073
+    Data4: -1167921011
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-585492959919650018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Minotaur/Minotaur_Damaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Minotaur/Minotaur_Damaged
+  Guid:
+    Data1: -1032160421
+    Data2: 1080751770
+    Data3: 1365718660
+    Data4: 1496535503
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +464,748 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -6050092246394994359}
+  - {fileID: 3760478711161372786}
+  EditorEvents:
+  - {fileID: 3567878338628385006}
+  - {fileID: 1726907502362852987}
+  - {fileID: 1910216088133136163}
+  - {fileID: -7406967619771697167}
+  - {fileID: 3732860187806390859}
+  - {fileID: 5202234097293511794}
+  - {fileID: 5014530765810963175}
+  - {fileID: -5351528388326772599}
+  - {fileID: 4670999364736982310}
+  - {fileID: 7449183478844979136}
+  - {fileID: -9019549245558312057}
+  - {fileID: 9092135160359816467}
+  - {fileID: 264541466624744006}
+  - {fileID: 3065350380664200322}
+  - {fileID: -2041909065090191382}
+  - {fileID: 924049988035087970}
+  - {fileID: 7113031202186623753}
+  - {fileID: -5597293987991538183}
+  - {fileID: -585492959919650018}
+  - {fileID: -3307512638528501681}
+  - {fileID: -1458045823681362798}
+  - {fileID: 5363897197649568526}
+  - {fileID: -6088309683660376501}
+  - {fileID: 2839451186243831944}
+  - {fileID: -9071854810281156209}
+  - {fileID: -4685210698621777220}
+  - {fileID: -2115078576826829702}
+  - {fileID: 4008589255261228418}
+  - {fileID: -5267890257771468016}
+  - {fileID: 5799845264498954430}
+  - {fileID: 1031660078391097252}
+  - {fileID: 5187398030096720263}
+  - {fileID: -2729413500345155669}
+  - {fileID: 1922868575891877480}
+  - {fileID: 8401183307547483401}
+  - {fileID: 2117536237158778818}
+  - {fileID: -5376691807974489693}
+  - {fileID: 332022857660640413}
+  - {fileID: 5854132689913096420}
+  - {fileID: -7155947376107149629}
+  - {fileID: 4723922946413606966}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: 3760478711161372786}
+  StringsBanks:
+  - {fileID: -6050092246394994359}
+  cacheTime: 637876421522569930
   cacheVersion: 10
+--- !u!114 &264541466624744006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Apollo/Apollo_Damaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Apollo/Apollo_Damaged
+  Guid:
+    Data1: 1489090100
+    Data2: 1270957056
+    Data3: 1440202401
+    Data4: 1418957939
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &332022857660640413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Main_Menu_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Main_Menu_Music
+  Guid:
+    Data1: -501168404
+    Data2: 1305068070
+    Data3: 120551349
+    Data4: -1330865364
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25945
+--- !u!114 &924049988035087970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Bow_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Bow_Attack
+  Guid:
+    Data1: -1292127663
+    Data2: 1079851872
+    Data3: 1732900271
+    Data4: 1175880638
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1031660078391097252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Player_Damaged_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Player_Damaged_1
+  Guid:
+    Data1: -1103675959
+    Data2: 1097676784
+    Data3: 881767869
+    Data4: 1379912734
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 375
+--- !u!114 &1726907502362852987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Minotaur/Minotaur_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Minotaur/Minotaur_Death
+  Guid:
+    Data1: -1855593709
+    Data2: 1265067048
+    Data3: 288400269
+    Data4: 964777834
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1910216088133136163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Button_Click
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Button_Click
+  Guid:
+    Data1: -392946151
+    Data2: 1243143969
+    Data3: -1192790626
+    Data4: 2008922225
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1922868575891877480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Button_Cancel
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Button_Cancel
+  Guid:
+    Data1: -1777496354
+    Data2: 1227446101
+    Data3: 478567813
+    Data4: 870835657
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2117536237158778818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Cyclops/Cyclops_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Cyclops/Cyclops_Attack
+  Guid:
+    Data1: 744227813
+    Data2: 1151667336
+    Data3: -921741656
+    Data4: 1494616009
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2839451186243831944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Sword_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Sword_Attack
+  Guid:
+    Data1: -1035321455
+    Data2: 1143672237
+    Data3: -2007841390
+    Data4: 689792548
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3065350380664200322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Hades_Combat_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Hades_Combat_Music
+  Guid:
+    Data1: -1470816967
+    Data2: 1287164076
+    Data3: 1894642600
+    Data4: -1141776225
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46265
+--- !u!114 &3567878338628385006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Hades/Hades_Damaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Hades/Hades_Damaged
+  Guid:
+    Data1: -1520636915
+    Data2: 1135068936
+    Data3: -812422004
+    Data4: -269034682
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3732860187806390859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Footsteps
+  Guid:
+    Data1: 1424754974
+    Data2: 1234378913
+    Data3: -1224467071
+    Data4: 669498315
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3760478711161372786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637876421522569930
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4008589255261228418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Harpy/Harpy_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Harpy/Harpy_Attack
+  Guid:
+    Data1: 1063155119
+    Data2: 1216058386
+    Data3: -272145775
+    Data4: 1647034052
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4670999364736982310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Player_Jumping_2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Player_Jumping_2
+  Guid:
+    Data1: 2000452650
+    Data2: 1127966269
+    Data3: 1267110576
+    Data4: -1673803952
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4723922946413606966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambiance/Hades_Ambiance
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambiance/Hades_Ambiance
+  Guid:
+    Data1: -70218498
+    Data2: 1269049202
+    Data3: -1011709821
+    Data4: -444853867
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16157
+--- !u!114 &5014530765810963175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Env/Portal_Interaction
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Env/Portal_Interaction
+  Guid:
+    Data1: -347749601
+    Data2: 1260289992
+    Data3: 43421361
+    Data4: 248961193
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5187398030096720263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Button_Popup
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Button_Popup
+  Guid:
+    Data1: 1684339145
+    Data2: 1143170452
+    Data3: -2092866657
+    Data4: -1955345827
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5202234097293511794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/NPC/Old_Man
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/NPC/Old_Man
+  Guid:
+    Data1: -400861665
+    Data2: 1151118926
+    Data3: 579653511
+    Data4: -846147487
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5363897197649568526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Cerberus/Cerberus_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Cerberus/Cerberus_Attack
+  Guid:
+    Data1: 1585986161
+    Data2: 1309793822
+    Data3: -1021172860
+    Data4: -432948816
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5799845264498954430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Cyclops/Cyclops_Damaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Cyclops/Cyclops_Damaged
+  Guid:
+    Data1: -29544003
+    Data2: 1158361288
+    Data3: 2048841663
+    Data4: 1143868586
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5854132689913096420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Env/Portal_Hum
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Env/Portal_Hum
+  Guid:
+    Data1: 1816233972
+    Data2: 1092886052
+    Data3: 800922535
+    Data4: -1620180760
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7372
+--- !u!114 &7113031202186623753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Player_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Player_Death
+  Guid:
+    Data1: 1768097876
+    Data2: 1228785043
+    Data3: -457808710
+    Data4: 1361540082
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7449183478844979136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Apollo/Apollo_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Apollo/Apollo_Attack
+  Guid:
+    Data1: -337256660
+    Data2: 1095841281
+    Data3: 715504046
+    Data4: 296339777
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8401183307547483401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/NPC/Zeus
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/NPC/Zeus
+  Guid:
+    Data1: -147464223
+    Data2: 1253739045
+    Data3: 708935564
+    Data4: 36932722
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9092135160359816467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Cerberus/Cerberus_Damaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Cerberus/Cerberus_Damaged
+  Guid:
+    Data1: -905657299
+    Data2: 1192523769
+    Data3: -1425379423
+    Data4: 1529119594
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
