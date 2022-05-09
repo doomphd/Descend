@@ -73,6 +73,14 @@ public class StageCollisionButton : MonoBehaviour
 
     }
 
+    // private void OnCollisionEnter2D(Collider2D otherObject){
+    //     Debug.Log("Collision");
+    //     Debug.Log("Player/Emblem Collision");
+    //     button.SetActive(true); 
+
+
+    // }
+
     public void ZeusInteracted(){
         zeusInteracted = true;
         Debug.Log("Interacted is true for Zeus");
