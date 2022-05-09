@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/World Scenes/GameLauncherScene.unity
-=======
-- path: Assets/Visuals/Main Menu.unity
->>>>>>> main
+- path: Assets/Visuals/LoginReg.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
