@@ -11,10 +11,9 @@ public class EnemyBehaviour : MonoBehaviour
 	string currentAnimState;
     public HealthbarBehaviour Healthbar;
 
+    [SerializeField] string PLAYER_IDLE_ANIMITION;
+
     // Start is called before the first frame update
-
-
- 
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -66,15 +65,12 @@ public class EnemyBehaviour : MonoBehaviour
             }
             if(gameObject.tag == "Cerberus"){
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cerberus/Cerberus_Death", GetComponent<Transform>().position);
-
             }           
             if(gameObject.tag == "Hades"){
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Hades/Hades_Death", GetComponent<Transform>().position);
-
             }
             if(gameObject.tag == "Cyclops"){
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cyclops/Cyclops_Death", GetComponent<Transform>().position);
-
             }
             if(gameObject.tag == "Harpy"){
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Harpy/Harpy_Death", GetComponent<Transform>().position);
@@ -85,11 +81,10 @@ public class EnemyBehaviour : MonoBehaviour
             GetComponent<BoxCollider2D>().enabled = false;
             animator.SetTrigger("Death");
             StartCoroutine(Wait());
-
-                    }
-  
+        }
     }
-    	void ChangeAnimationstate(string newState)
+
+    void ChangeAnimationstate(string newState)
 	{
 		// Stop animation from interrupting itself
 		if (currentAnimState == newState) return;
