@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7424285085609171025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Hades_Overworld
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Hades_Overworld
+  Guid:
+    Data1: 221402359
+    Data2: 1268961620
+    Data3: -113168199
+    Data4: 1858680676
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27469
 --- !u!114 &-7406967619771697167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,10 +177,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637876462160327763
+  lastModified: 637877383946556095
   FileSizes:
   - Name: 
-    Value: 2830
+    Value: 2976
   Exists: 1
 --- !u!114 &-5597293987991538183
 MonoBehaviour:
@@ -509,12 +536,15 @@ MonoBehaviour:
   - {fileID: 5854132689913096420}
   - {fileID: -7155947376107149629}
   - {fileID: 4723922946413606966}
+  - {fileID: 746027555127891451}
+  - {fileID: 1207830270260401220}
+  - {fileID: -7424285085609171025}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3760478711161372786}
   StringsBanks:
   - {fileID: -6050092246394994359}
-  cacheTime: 637876462160327763
+  cacheTime: 637877383946556095
   cacheVersion: 10
 --- !u!114 &264541466624744006
 MonoBehaviour:
@@ -570,6 +600,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 25945
+--- !u!114 &746027555127891451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Apollo_Extra
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Apollo_Extra
+  Guid:
+    Data1: 380131646
+    Data2: 1291249038
+    Data3: 2080371600
+    Data4: 1970458413
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23132
 --- !u!114 &924049988035087970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,6 +681,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 375
+--- !u!114 &1207830270260401220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Tutorial_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Tutorial_Music
+  Guid:
+    Data1: 1965351110
+    Data2: 1222007865
+    Data3: -2103935812
+    Data4: 481717131
+  Banks:
+  - {fileID: 3760478711161372786}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30810
 --- !u!114 &1726907502362852987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,7 +939,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Audio/GeneratedSoundbanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637876462160318096
+  lastModified: 637877383932653577
   FileSizes: []
   Exists: 1
 --- !u!114 &4008589255261228418
