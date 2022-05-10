@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/World Scenes/Hades_World.unity
+=======
+- path: Assets/Visuals/LoginReg.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0

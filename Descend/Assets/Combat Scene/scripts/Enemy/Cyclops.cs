@@ -32,6 +32,7 @@ public class Cyclops : MonoBehaviour
     {
         if(Detected.PlayerDetected == true){
         if(Time.time > next){
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Cyclops/Cyclops_Attack", GetComponent<Transform>().position);
 
             Attack();
                 next = Time.time + cd;

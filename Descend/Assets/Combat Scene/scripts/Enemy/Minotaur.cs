@@ -30,6 +30,8 @@ public class Minotaur : MonoBehaviour
         if(Time.time > next){
 
             Attack();
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Minotaur/Minotaur_Attack", GetComponent<Transform>().position);
+
                 next = Time.time + cd;
             
         }

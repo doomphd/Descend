@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -10,25 +11,44 @@ public class Weapon : MonoBehaviour
     public GameObject abilityPrefab;
     Animator animator;
 
-    
-
     // Start is called before the first frame update
-
+    private void Start()
+    {
+        //Set the max value to the refill time
+        // countdownBar.maxValue = cd;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Time.time > next){
-            if(Input.GetButtonDown("Fire1"))
+        if (Time.time > next)
+        {
+            // specialAttackReadyImage.gameObject.SetActive(true);
+
+            if (Input.GetButtonDown("Fire1"))
             {
-                        if(gameObject.tag == "Swordsman"){
-           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Big_Slash", GetComponent<Transform>().position);
-        } 
-                if(gameObject.tag == "Archer"){
-           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Magical_Arrow", GetComponent<Transform>().position);
-        } 
+                // specialAttackReadyImage.gameObject.SetActive(false);
+
+                if (gameObject.tag == "Swordsman")
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot(
+                        "event:/SFX/Player/Big_Slash",
+                        GetComponent<Transform>().position
+                    );
+                }
+
+                if (gameObject.tag == "Archer")
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot(
+                        "event:/SFX/Player/Magical_Arrow",
+                        GetComponent<Transform>().position
+                    );
+                }
+
                 Activate();
                 next = Time.time + cd;
+
+
             }
         }
     }
@@ -39,4 +59,6 @@ public class Weapon : MonoBehaviour
 
         Instantiate(abilityPrefab, AttackPoint.position, AttackPoint.rotation);
     }
-}   
+
+    
+}
