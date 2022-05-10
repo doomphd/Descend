@@ -18,7 +18,7 @@ public class StageCollisionButton : MonoBehaviour
 
     private string [] apolloSentences = {"x", "y", "z"};
     private string [] hadesSentences = {"1", "2", "3"};
-    private string [] zeusSentences = {"a", "b", "c"};
+    private string[] zeusSentences = { "Welcome Warrior", "Something terrible has happened", "Hades is planning to destroy the overworld", "I need you to go to the underworld and defeat Hades", "But be careful, I fear that other Gods are helping him"};
 
 
 

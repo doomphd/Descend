@@ -23,9 +23,11 @@ public class specialAttackTimer : MonoBehaviour
     {
         if (countdownBar.value == 10)
         {
+            countdownBar.fillRect.GetComponent<Image>().color = new Color(0.4f, 0.6f, 1f, 1f);
             if (Input.GetButtonDown("Fire1"))
             {
                 countdownBar.value = 0;
+                countdownBar.fillRect.GetComponent<Image>().color = new Color(1f, 0.6f, 0.6f, 1f);
             }
         }
 
