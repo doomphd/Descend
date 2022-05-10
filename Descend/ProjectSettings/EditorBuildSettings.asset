@@ -4,35 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Visuals/Title Screen.unity
-    guid: 26a62d482d2674e8fa542869b7e84d86
-  - enabled: 1
-    path: Assets/World Scenes/Level_1.unity
-    guid: b88ce5343811e4a4e8e244856d91bba6
-  - enabled: 1
-    path: Assets/Combat Scene/Level 0/Tutorial.unity
-    guid: 9f2cd3e5fb2037e4d8bf9b04598bfb76
-  - enabled: 1
-    path: Assets/Combat Scene/Level 2/Hades.unity
-    guid: 7a672d8fb624d914fa922fa465a97f9d
-  - enabled: 1
-    path: Assets/Visuals/Main Menu.unity
-    guid: 9e6ddf63deddf4cafb39a62db683c7df
-  - enabled: 1
-    path: Assets/World Scenes/Hades_World.unity
-    guid: 4362b5f7223f18744ad089d1548de408
-  - enabled: 1
-    path: Assets/Visuals/Game Over.unity
-    guid: 5a8dfaca6fb7f43df8c3e410d775ab65
-  - enabled: 1
-    path: Assets/Visuals/Congrats.unity
-    guid: d18c25f6b3c7b4437a1514e246719bc3
-  - enabled: 1
-    path: Assets/Combat Scene/Level 1/Apollo.unity
-    guid: 16cd70621223d844d928c9bd437c3e6f
-  - enabled: 1
-    path: Assets/Visuals/LoginReg.unity
-    guid: 074ff66c2687c418ca5340b71bc87691
+  m_Scenes: []
   m_configObjects: {}
