@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Combat Scene/Level 0/Tutorial.unity
+=======
+- path: Assets/Visuals/Main Menu.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
