@@ -36,11 +36,10 @@ public class PortalScript : MonoBehaviour
         nextLevelDialogue.SetActive(false);
         if(SceneManager.GetActiveScene().name == "Tutorial"){
             if(levelBoss.GetComponent<Cyclops>().cd >= 5){
-                // MakePortalDisappear();
-                // portal.SetActive(false);
+
                 GetComponent<Renderer>().enabled = false;
-                // GetComponent<FMODUnity.StudioEventEmitter>().Stop();
                 SendMessage("Stop");
+                // GetComponent<FMODUnity.StudioEventEmitter>().Stop();
 
 
                 Debug.Log("Portal should be off");

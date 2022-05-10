@@ -597,8 +597,8 @@ MonoBehaviour:
   - {fileID: 8732780450990890899}
   - {fileID: 8732780451161136544}
   m_Bounds:
-    m_Center: {x: 0.17389488, y: 0.15609884, z: 0}
-    m_Extent: {x: 4.509471, y: 5.0337644, z: 0}
+    m_Center: {x: 0.16315603, y: 0.038817883, z: 0}
+    m_Extent: {x: 4.346978, y: 5.0337644, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -663,6 +663,7 @@ MonoBehaviour:
   Hitpoints: 0
   MaxHitpoints: 5
   Healthbar: {fileID: 8497867486570231229}
+  PLAYER_IDLE_ANIMITION: 
 --- !u!114 &2959268765817774242
 MonoBehaviour:
   m_ObjectHideFlags: 0
