@@ -176,8 +176,8 @@ MonoBehaviour:
   - {fileID: 6153079568048638586}
   - {fileID: 2650981231379292315}
   m_Bounds:
-    m_Center: {x: -0.30976295, y: -0.13562155, z: 0}
-    m_Extent: {x: 5.970479, y: 5.0106807, z: 0}
+    m_Center: {x: -0.30976295, y: -0.13562107, z: 0}
+    m_Extent: {x: 5.970479, y: 5.010681, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -242,6 +242,7 @@ MonoBehaviour:
   Hitpoints: 0
   MaxHitpoints: 5
   Healthbar: {fileID: 5012871364801220608}
+  PLAYER_IDLE_ANIMITION: 
 --- !u!1 &1113178838401124748
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6172181533632615318
 RectTransform:
   m_ObjectHideFlags: 0
@@ -462,7 +463,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
