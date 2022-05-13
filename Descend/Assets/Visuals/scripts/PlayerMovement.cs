@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 	string currentAnimState;
 	const string WARRIOR_IDLE= "WarriorIdle";
 	const string WARRIOR_WALKING= "WarriorWalking";
-
+    
 	void Start()
 	{
 		rb = gameObject.GetComponent<Rigidbody2D>();

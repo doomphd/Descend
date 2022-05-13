@@ -80,6 +80,7 @@ public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer){
 }
 
     public override void OnConnectedToMaster() {
+        
         Debug.Log(PhotonNetwork.NickName + " Connected to Server, There is ? player in the room.");
         LobbyPanel.SetActive(true);
         ConnectionStatusPanel.SetActive(false);
